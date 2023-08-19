@@ -85,9 +85,15 @@ Por dentro tienen los *primoridos florales*, junto con todos los componentes int
 
 == Módulos reproductivos<modulos-reproductivos>
 
-Las flores son, esencialmente, ramas que han sido modificadas para poder maximizar la reproducción sexual (a través de polinizadores como las abejas). Se pueden producir dos situaciones: el crecimiento de una flor solitaria (simplemente *flor*), o el crecimiento de varias flores a partir de la misma yema (*inflorescensia*).
+Las flores son, esencialmente, ramas que han sido modificadas para poder maximizar la reproducción sexual (a través de polinizadores como las abejas). Se pueden producir dos situaciones: el crecimiento de una flor solitaria (simplemente *flor*), o el crecimiento de varias flores a partir de la misma yema (*inflorescencia*).
 
-A su vez, las inflorescencias se dividen en *inflorescencias cimosas* (a.k.a determinadas; las flores crecen _basípetamente_ --desde el ápice hacia la base) e *inflorescencias racemosas* (a.k.a. indeterminadas; las flores crecen _acrópetamente_ --desde la base hacia el ápice)
+A su vez, las inflorescencias se dividen en *inflorescencias cimosas* (a.k.a determinadas; las flores crecen _basípetamente_ --desde el ápice hacia la base) e *inflorescencias racemosas* (a.k.a. indeterminadas; las flores crecen _acrópetamente_ --desde la base hacia el ápice).
+
+Además, las inflrescencias cimosas pueden subdividirse en 3 situaciones generales:
+
++ *Monocasio:* El eje principal termina en una flor y desarrolla una sola ramificación florífera lateral (comportamiento que se repite en esta última, al igual que en las nuevas ramas que genere).
++ *Dicasio:* El eje principal termina en una flor y desarrolla dos ramas laterales floríferas (comportamiento que se repite en estas últimas, al igual que en las nuevas ramas que generen).
++ *Pleocasio:* El eje principal termina en una flor y desarrolla tres o más ramas laterales floríferas, las cuales, presentan este mismo comportamiento.
 
 = Yemas mixtas
 
@@ -110,10 +116,16 @@ Para proteger una yema, existen al menos 4 mecanismos:
 
 = Clasificacion de leñosas según la vida de las hojas
 
-/ Deciduos o caducos: Las hojas viven menos de un año (se caen).
-/ Siempreverdes: Las hojas viven más de un año.
+La vida de las hojas usualmente presenta dos tipos de comportamiento, causando que las leñosas puedan clasificarse como:
+
+#box(height: .8cm, columns(2)[
+  - *Deciduos o caducos:* Las hojas viven menos de un año (se caen).
+  - *Siempreverdes:* Las hojas viven más de un año y luego se caen.
+])
 
 == Morfología de ramas de árboles deciduos
 
-1. *Cuando las hojas se caen* aun se conserva la yema axilar, pero queda una *cicatriz folirar* (donde estaba la hoja) y una *cicatriz vascular* (donde estaban las vascularizaciones que iban hacia la hoja).
-2. *Cuando la yema apical se desarrolla* quedan *cicatrices bracteales*, similares a anillos alrededor del tallo.
+Existen dos situaciones particulares que marcan la morfología de las ramas de los árboles deciduos:
+
+1. *Cuando las hojas se caen,* aún se conserva la yema axilar, pero queda una *cicatriz foliar* (donde estaba la hoja --más específicamente su _pleciolo_) y una *cicatriz vascular* (donde estaban las vascularizaciones --xilema y floema-- que iban hacia la hoja).
+2. *Cuando la yema apical se desarrolla,* quedan *cicatrices bracteales*, "anillos" perpendiculares alrededor del tallo.
