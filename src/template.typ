@@ -9,6 +9,11 @@
     heading(level: 4, numbering: none, it.body.text)
   }
 
+  set page(numbering: ("1"))
+
+  set enum(indent: 1.25em)
+  set list(indent: 1.25em)
+
   body
 }
 
@@ -20,12 +25,16 @@
         #text(size: 2em, weight: 700, "Apuntes de Botánica")
 
         #text(size: 1.25em, "Semestre 2023-2")
-        
+
         #text(size: 1em, "Pablo González Calderón")
     ]
 }
 
 #let new-class(new-page: true, tema, date) = {
+  if new-page {
+    pagebreak()
+  }
+  counter(heading).update(0)
   block(
     spacing: 0pt,
     grid(
@@ -57,6 +66,17 @@
     color: black,
   ),
   title: "Ejemplo / Caso",
+  ..body
+)
+
+#let obsbox(..body) = showybox(
+  frame: (
+    body-color: blue.lighten(85%),
+    title-color: blue.lighten(90%),
+    border-color: blue.darken(10%),
+    thickness: (left: 2pt),
+    radius: 0pt
+  ),
   ..body
 )
 
