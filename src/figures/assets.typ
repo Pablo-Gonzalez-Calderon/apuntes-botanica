@@ -10,6 +10,7 @@
 
     place(
         dy: -30pt,
+        dx: 20pt,
         block(spacing: 0pt, align(left + horizon, stack(
             dir: ltr,
             spacing: 3pt,
@@ -32,6 +33,7 @@
 
     place(
         dy: -10pt,
+        dx: 2pt,
         block(spacing: 0pt, width: 100pt, align(horizon, stack(
             dir: ltr,
             spacing: 3pt,
@@ -53,7 +55,7 @@
     )
 
     place(
-        dx: -60pt,
+        dx: -50pt,
         dy: -10pt,
         block(spacing: 0pt, width: 100pt, align(horizon, stack(
             dir: rtl,

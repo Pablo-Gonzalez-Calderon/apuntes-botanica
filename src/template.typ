@@ -22,7 +22,9 @@
     set page(paper: "a7")
 
     align(center)[
-        #text(size: 2em, weight: 700, "Apuntes de Botánica")
+        #block(spacing: 0pt, text(size: 2em, weight: 700, "Apuntes de Botánica"))
+
+        #block(spacing: 10pt, text(size: 1.5em, weight: 500, [AGL101 --- Sección 1 ]))
 
         #text(size: 1.25em, "Semestre 2023-2")
 
