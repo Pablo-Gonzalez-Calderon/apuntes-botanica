@@ -1,21 +1,55 @@
-MIT License
+Copyright (c) 2023, Pablo González Calderón
+All rights reserved.
 
-Copyright (c) 2023 Pablo González Calderón
+Definitions
+----------------------------------------
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ 1. "Source"/"Source code"/"Source files" shall mean all files
+    which contain source code that, by a compiling process,
+    generate binary files. Source files have, but not
+    necessarily, a *.typ or a *.svg extension.
+ 2. "Binary" shall mean all files which are product of a compilation of the
+    source files. Binary files have, but not necessarily, a *.pdf extension.
+ 3. "Binary information" shall mean all text and/or images contained inside the
+    binary files that are human-readable, not necessarily in a specific
+    language such as English.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Conditions of use
+----------------------------------------
+
+Redistribution and use of source and binary files, with or without modification,
+are permitted provided that the following conditions are met:
+
+ 1. Redistributions of source files must retain the above copyright notice, the
+    definitions section, this list of conditions and the following disclaimer.
+ 2. Redistributions of binary files must reproduce the above copyright notice,
+    the definitions section, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided with the
+    distribution.
+ 3. All advertising materials mentioning features or use of source files, binary
+    files, or binary information must display the following acknowledgement:
+    This product includes source code, binary files, and/or information produced
+    by Pablo González Calderón, used as notes for the subject "Botánica"
+    (Botany) taught in the second semester of 2023 at the Pontificia Universidad
+    Católica de Chile.
+ 4. Neither the name of the author nor the names of the subject teachers and the
+    University mentioned may be used to endorse or promote products derived from
+    the source files, binary files or binary information without specific prior
+    written permission.
+
+Disclaimer
+----------------------------------------
+
+THIS SOURCE FILES, BINARY FILES AND BINARY INFORMATION ARE PROVIDED BY PABLO
+GONZÁLEZ CALDERÓN “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT NEITHER PABLO GONZÁLEZ CALDERÓN
+NOR THE SUBJECT TEACHERS AND PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE SHALL BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THE SOURCE FILES, BINARY FILES, OR BINARY INFORMATION, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
