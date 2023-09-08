@@ -1,11 +1,15 @@
-#import "assets.typ": *
+#let fig_epidermis = block(
 
-#let fig_estructura_hoja = block(
-    width: 45%,
-    spacing: 0pt,
-    align(center)[
-        #asset_hoja
-        #asset_peciolo
-        #asset_base
-    ]
+)
+
+#let fig_tricomas = block(
+
+)
+
+#let fig_celula_oclusiva = block(
+
+)
+
+#let fig_estoma_en_epidermis = block(
+
 )

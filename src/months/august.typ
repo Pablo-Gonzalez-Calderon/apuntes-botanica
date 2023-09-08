@@ -34,7 +34,7 @@
 
     Al producto del desarrollo de una yema lo denominaremos *módulo arquitectónico*. Cuando una yema genera una flor o una espina, deja de haber meristema y, por tanto, desde ese módulo no podrá seguir el crecimiento vegetativo.
 
-    Cuando se estudia la "arquitectura" de una planta, en realidad se estudia la _forma_ que adquieren las plantas. Las diferencias que se hayan en esta _forma_ se deben a la manera en la que crecen las plantas mismas: periódicamente se van formando *módulos*. De esta forma, *las plantas son entidades modulares.* Cada módulo tiene su origen en una *yema.*
+    Cuando se estudia la "arquitectura" de una planta, en realidad se estudia la _forma_ que adquieren las plantas. Las diferencias que se hallan en esta _forma_ se deben a la manera en la que crecen las plantas mismas: periódicamente se van formando *módulos*. De esta forma, *las plantas son entidades modulares.* Cada módulo tiene su origen en una *yema.*
 
     Las yemas se pueden clasificar según su función en *vegetativas* (crecimiento ilimitado - _perenne_), *reproductivas* (crecimiento limitado) o *mixtas* (contiene tanto partes con funciones vegetativas como partes con funciones reproductivas); y según su localización en *axilares* o *apicales.*
 
@@ -86,7 +86,7 @@
 
     A su vez, las inflorescencias se dividen en *inflorescencias cimosas* (a.k.a determinadas; las flores crecen _basípetamente_ --desde el ápice hacia la base) e *inflorescencias racemosas* (a.k.a. indeterminadas; las flores crecen _acrópetamente_ --desde la base hacia el ápice).
 
-    Además, las inflrescencias cimosas pueden subdividirse en 3 situaciones generales:
+    Además, las inflorescencias cimosas pueden subdividirse en 3 situaciones generales:
 
     + *Monocasio:* El eje principal termina en una flor y desarrolla una sola ramificación florífera lateral (comportamiento que se repite en esta última, al igual que en las nuevas ramas que genere).
     + *Dicasio:* El eje principal termina en una flor y desarrolla dos ramas laterales floríferas (comportamiento que se repite en estas últimas, al igual que en las nuevas ramas que generen).
@@ -124,22 +124,24 @@
 
     Existen dos situaciones particulares que marcan la morfología de las ramas de los árboles deciduos:
 
-    1. *Cuando las hojas se caen,* aún se conserva la yema axilar, pero queda una *cicatriz foliar* (donde estaba la hoja --más específicamente su _pleciolo_) y una *cicatriz vascular* (donde estaban las vascularizaciones --xilema y floema-- que iban hacia la hoja).
+    1. *Cuando las hojas se caen,* aún se conserva la yema axilar, pero queda una *cicatriz foliar* (donde estaba la hoja --más específicamente su _peciolo_) y una *cicatriz vascular* (donde estaban las vascularizaciones --xilema y floema-- que iban hacia la hoja).
     2. *Cuando la yema apical se desarrolla,* quedan *cicatrices bracteales*, "anillos" perpendiculares alrededor del tallo.
 ]
 
 #let clase-3-4 = [
     #new-class(new-page: true, "Arquitectura de plantas herbáceas", "21 de agosto de 2023")
 
-    #gloss(size: 19em)[
+    #gloss(size: 23em)[
     / Tallo acaule: _a_ (sin) + _caule_ (tallo). Se usa para mencionar plantas con tallos muy cortos, como si prácticamente no existiesen.
     / Variedad vegetal: Representa a un grupo de plantas definido con mayor precisión, seleccionado dentro de la especie, que presenta una serie de características comunes.
     / Tallo suculento: Tipo de tallo que almacena una gran cantidad de agua o nutrientes en su interior como método de supervivencia.
     / Mucilago: Sustancia vegetal viscosa. Es una solución acuosa espesa de una goma o dextrina utilizada para suspender sustancias insolubles y para aumentar la viscosidad.
     / Raíces adventicias: Raíces que no se forman del embrión de la semilla.
+    / Raíz contráctil: Raíz adventicia cuya función es desplazar el brote hasta una ubicación cercana a la superficie del suelo.
     / Tallo plagiótropo: Tallo de crecimiento horizontal.
     / Tallo ortótropo: Tallo de crecimiento vertical
     / Brotes epígeos: Brote que saldrá a la superficie, dando origen a un tallo aéreo.
+    / Nervio medio foliar: Vascularización central en la lámina de la hoja.
     ]
 
     *Las yemas de renuevo siempre van en el tallo*
@@ -195,33 +197,38 @@
 
         La variabilidad en forma y tamaño de estas estructuras da origen a distintos tipos de plantas.
 
-        Así, por ejemplo, las cebollas poseen más desarrollada la base y la lámina que el peciolo; o el apio posee más desarrollado su peciolo.
+        Así, por ejemplo, las cebollas poseen más desarrollada la base y la lámina que el peciolo, el cual no existe (*hoja sésil*); o el apio posee más desarrollado su peciolo.
     ],
-    figure(caption: "Estructura básica de la hoja", fig_estructura_hoja)
+    figure(
+        caption: "Estructura básica de la hoja",
+        image("../figures/fig_hoja.svg", height: 4.5cm)
+        )
     )
 
     = Morfología de tallos herbáceos
 
     Son aquellos que no tienen adición de madera, debido a que viven menos de un año (condición para que no sea una planta leñosa). Los tallos pueden clasificarse de la siguiente manera:
 
-    #align(center, block(width: 75%, stroke: (dash: "dashed", paint: luma(220)), inset: 1em)[
-    #grid(
-        columns: (1fr, 1fr),
-        column-gutter: 11pt,
+    #align(center, [
+    #table(
+        columns: (2fr, 1fr),
+        inset: 1em,
+        stroke: (dash: "dashed", paint: luma(220)),
         [
         #text(weight: 700, size: 1.1em, "Aéreos")
 
-        #align(left)[
+        #align(left, columns(2)[
             - Dolicoblastos
             - Braquiblastos
             - Volubles (plantas trepadoras)
             - Espinas
             - Zarcillos (caulomáticos y filomáticos)
+            #colbreak()
             - Filóclados
             - Cladodios
             - Estolones
             - Comprimidos (plantas acaules)
-        ]
+        ])
         ],
         [
         #text(weight: 700, size: 1.1em, "Subterráneos")
@@ -231,9 +238,12 @@
             - Rizomas
             - Cormos
             - Bulbos
-            - Tunicados
-            - Lobulados
-            - Escamosos
+                #enum(
+                    numbering: "i.",
+                    [Tunicados],
+                    [Lobulados],
+                    [Escamosos]
+                )
         ]
         ]
     )
@@ -359,7 +369,7 @@
     [Son tallos engrosados que almacenan nutrientes],
     [Sus hojas corresponden a escamas o brácteas],
     [Poseen crecimiento ilimitado],
-    [Generan raíces adventicias],
+    [Generan raíces adventicias de los rizomas nuevos],
     [De sus yemas se generan dos tipos de tallos: (1) aéreos con hojas y flores, y (2) subterráneos (otros rizomas)]
     )
 
@@ -382,7 +392,9 @@
     [Son tallos donde se almacenan sustancias de reserva],
     [*Solo tienen yemas axilares*],
     [Las yemas axilares generan tallos aéreos, que, en sus bases, generarán raíces adventicias],
-    [Desde la base de los tallos aéreos saldrán tallos plagiótropos subterráneos, los cuales *agotan su yema apical*. Al agotarse, el extremo más alejado del tallo dará origen a un nuevo tubérculo]
+    [Desde la base de los tallos aéreos saldrán tallos plagiótropos subterráneos, los cuales *agotan su yema apical*. Al agotarse, el extremo más alejado del tallo dará origen a un nuevo tubérculo],
+    [En el nuevo tubérculo, el extremo más cercano a la planta es el *extremo proximal,* mientras que el más lejano es el *extremo distal*],
+    [En el extremo proximal se haya la *cicatriz de desprendimiento* del tallo plagiótropo]
     )
 
     == Cormos
@@ -424,8 +436,8 @@
     #enum(
     numbering: "(a)",
     [Almacenar sustancias de reserva en yemas axilares desarrolladas ("diente" o lóbulo)],
-    [Cada yema axilar tiene sus propios catáfilos almacenadores y protectores. Y todos están protegidos por fuera por otros
-    catáfilos protectores],
+    [Cada yema axilar tiene sus propios catáfilos almacenadores y protectores. Y todos están protegidos por fuera por otros catáfilos protectores],
+    [Al centro de los catáfilos almacenadores se hayan los catáfilos fotosintetizadores, que pueden dar origen a una nueva planta],
     [Tener crecimiento ilimitado],
     [En la base hay un tallo comprimido, del cual se desarrollan las raíces adventicias],
     [Desarrollar raíces adventicias]
@@ -434,9 +446,21 @@
     Un conocido ejemplo de bulbo lobulado es el ajo, donde la parte que comemos es, efectivamente, una yema axilar.
     ]
 
+    == Bulbo escamoso
+
+    Se caracteriza por:
+    #enum(
+        numbering: "(a)",
+        [Almacenar nutrientes en la parte basal de sus hojas (catáfilos de reserva)],
+        [Estar dispuestos como tejas, a diferencia de los tunicados que están simplemente superpuestos],
+        [No presentan catáfilos protectores]
+    )
+
     = Hipocotilo
 
     A veces, consumimos otras partes de la planta. Los hipocotilos son una mezcla entre la raíz y el tallo, es decir, a la *parte basal del tallo.* Así, en estas especies hay un engrosamiento del tallo y, en mayor o menor medida, también un engrosamiento de la raíz.
+
+    Cuando el engrosamiento se da más hacia la raíz, decimos que estamos antes un *tubérculo radical o raíz tuberosa.*
 ]
 
 #let clase-5-6 = [
@@ -538,9 +562,11 @@
 
     Pese a que la pared celular es permeable, existen conductos denominados *plasmodesmos* que conectan los citoplasmas de células adyacentes, formando el *simplasto.* Por los plasmodesmos pasan membranas de ambas células que, si corresponden a membranas de retículo endoplasmático, se denominan *desmotúbulos* al atravesar la pared primaria.
 
+    Los plasmodesmos pueden ser primarios o secundarios, según si se formaron en la división celular, o en una etapa más avanzada de la vida de la célula, respectivamente. Además, pueden cerrarse si la planta así lo requiere (e.g. ante la presencia de un virus).
+
     La contraparte de la vía simplástica, es la vía *apoplástica*, la cual es más rápida y pasa por fuera de paredes celulares de las células.
 
-    === Pared secundaria
+    == Pared secundaria
 
     Aparece una vez que la célula ya se especializó y no va a crecer más. Presenta un *grado de polimerización de la celulosa mayor que la pared primaria,* teniendo _más tipos_ de polímeros que esta. Además, la disposición de las microfibrillas de celulosa es más *ordenada y compacta.*
 
@@ -620,18 +646,25 @@
 
     Organelos de distinta forma y tamaño, con doble unidad de membrana. Pueden ser coloreados o incoloros, provienen de *proplastidios* (ancestro común) de células meristemáticas. De acuerdo a si tienen pigmentos o no, se pueden clasificar en dos:
 
-    + Con pigmentos
-    + Cloroplastos: tienen clorofila, pigmento verdoso
-    + Cromoplastos: pigmentos de tonos rojos y naranjos
-        - Globulosos
-        - Fibrilares o tubulosos
-        - Cristalinos
-        - Membranosos
-    + Sin pigmentos
-    + Leucoplastos
-        - Amiloplastos: plastidios no pigmentados que almacenan almidón
-        - Elaioplastos: almacenan aceites
-        - Aleuroplastos: almacenan proteínas
+    #box(enum(
+        numbering: "(a)",
+        [
+            Con pigmentos
+            + Cloroplastos: tienen clorofila, pigmento verdoso
+            + Cromoplastos: pigmentos de tonos rojos y naranjos
+                - Globulosos
+                - Fibrilares o tubulosos
+                - Cristalinos
+                - Membranosos
+        ],
+        [
+            Sin pigmentos
+            + Leucoplastos
+                - Amiloplastos: plastidios no pigmentados que almacenan almidón
+                - Elaioplastos: almacenan aceites
+                - Aleuroplastos: almacenan proteínas
+        ]
+    ))
 
     == Cloroplastos
 
