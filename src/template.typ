@@ -2,7 +2,7 @@
 
 #let properties(body) = {
   set heading(numbering: "1.")
-  set text(lang: "es")
+  set text(lang: "es", font: "Linux Libertine")
   set par(justify: true)
 
   show heading.where(level: 4, numbering: "1."): it => {
@@ -41,7 +41,7 @@
     spacing: 0pt,
     grid(
       column-gutter: 11pt,
-      columns: (1fr, 1fr),
+      columns: (2fr, 1fr),
       align(
         left,
         text(size: 1.3em, weight: 700, tema)
