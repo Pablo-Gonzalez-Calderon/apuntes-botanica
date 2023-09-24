@@ -101,9 +101,11 @@
 
     == Rizodermis
 
-    Es "la epidermis de las raíces" con la única diferencia de que no hay estomas, sí tricomas, pero que son llamados como *pelos radicales* cuya función es la absorción de agua y sales. Crecen a no más de 1 cm del ápice de la raíz (raíces nuevas)
+    Es "la epidermis de las raíces" con la única diferencia de que no hay estomas, sí tricomas, pero que son llamados como *pelos radicales* cuya función es la absorción de agua y sales. Crecen a no más de 1 cm del ápice de la raíz (raíces nuevas), en la *zona de diferenciación.*
 
-    Estos tricomas se originan a partir de células de la rizodermis llamadas *tricoblastos*
+    Estos tricomas se originan a partir de células de la rizodermis llamadas *tricoblastos,* y su función es aumentar la superficie de absorción de la raíz. Sin embargo, viven poco tiempo, siendo reemplazados de forma continua.
+
+    Cuando los pelos radicales mueren, la rizodermis es reemplazada por una *exodermis,* la cual está constituida por _células sub-rizodérmicas_ del parénquima cortical, las cuales suberifican sus paredes celulares.
 
     = Sistema fundamental
 
@@ -281,7 +283,7 @@
 
     Meristema primario compuesto de una zona de división, una zona de elongación y una zona de diferenciación.
 
-    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procambium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de meristema fundamental, el cual dará origen a células del sistema fundamental.
+    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procambium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de meristema fundamental, el cual dará origen a células del sistema fundamental (parénquima cortical, médula --en algunas plantas-- y endodermis).
 
     #figure(
         caption: "Corte longitudinal (izquierda) y transversal (derecha) de un meristema apical caulinar",
@@ -302,9 +304,9 @@
 
     = Meristema apical radical
 
-    A diferencia del meristema apical caulinar, no posee primordios foliares. Sin embargo, sí posee zona de diferenciación, zona de división y zona de elongación. Igualmente, posee meristema fundamental, procambium y protodermis.
+    A diferencia del meristema apical caulinar, *no posee primordios foliares.* Sin embargo, sí posee zona de diferenciación, zona de división y zona de elongación. Igualmente, posee meristema fundamental, procambium y protodermis (que, en este caso, originará la rizodermis).
 
-    Este meristema posee una estructura adicional, denominada caliptra, la cual se encarga de proteger el meristema apical.
+    Este meristema posee una estructura adicional, denominada *caliptra*, formada por células adultas. Su función es proteger el meristema apical (de paredes delgadas) de las presiones mecánicas del suelo.
 
     = Haces vasculares
 
@@ -359,7 +361,7 @@
         caption: [
             Haz vascular de una monocotiledónea (cerrado)
 
-            #emph(text(size: 10pt, "Imagen extraída de las cápsulas de clase de los profesores Miguel Gómez Y Gabriela Cordovez, para el curso AGL101, \"Botánica\""))
+            #emph(text(size: 10pt, "Imagen extraída de las cápsulas de clase de los profesores Miguel Gómez y Gabriela Cordovez, para el curso AGL101, \"Botánica\""))
         ],
         image("..\figures\fig_haces_vasculares_cerrados.png")
     )<haces-vasculares-cerrados>
