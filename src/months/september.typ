@@ -156,7 +156,7 @@
     El límite parietal externo de las células esclerenquimáticas es *angular*, mientras que el límite interno es *circular.*
 ]
 
-#let clase-9-10 = [
+#let clase-9 = [
     #new-class(new-page: true, "Crecimiento primario", "11 de septiembre de 2023")
 
     #gloss(size: 2.5cm)[
@@ -287,7 +287,7 @@
 
     #figure(
         caption: "Corte longitudinal (izquierda) y transversal (derecha) de un meristema apical caulinar",
-        image("../figures/fig_meristema_primario.svg")
+        image("../figures/fig_meristema_apical_caulinar.svg")
     )
 
     == Túnica
@@ -302,13 +302,7 @@
 
     Además, también dará origen al procambium en la zona de elongación, el cual producirá el *protoxilema* y el *protofloema*. Luego, en la zona de diferenciación,originará el *cambium fascicular* para dar origen al *xilema primario* y al *floema primario.*
 
-    = Meristema apical radical
-
-    A diferencia del meristema apical caulinar, *no posee primordios foliares.* Sin embargo, sí posee zona de diferenciación, zona de división y zona de elongación. Igualmente, posee meristema fundamental, procambium y protodermis (que, en este caso, originará la rizodermis).
-
-    Este meristema posee una estructura adicional, denominada *caliptra*, formada por células adultas. Su función es proteger el meristema apical (de paredes delgadas) de las presiones mecánicas del suelo.
-
-    = Haces vasculares
+    = Haces vasculares del meristema apical caulinar
 
     === Xilema
 
@@ -326,7 +320,7 @@
 
     Sus tipos celulares se subdividen en *tubos cribosos*, membranas plasmáticas continuas con proteínas periféricas y placa cribosa con callosa; y *células acompañantes*, con núcleo, citoplasma, conexión plasmodésmica, tubo criboso y abundantes mitocondrias.
 
-    == Formación de los haces vasculares
+    == Formación de los haces vasculares en tallos
 
     Recordemos que a partir del procambium se origina el protoxilema y el protofloema. El *protoxilema* crece "hacia adentro" (*centrípetamente*) y el *protofloema* crece "hacia afuera" (*centrífugamente*). Ambos se empiezan a formar a partir de _divisiones periclinales_ del procambium.
 
@@ -373,13 +367,13 @@
         El haz vascular las monocotiledóneas se encuentra rodeado de fibras esclerenquimáticas, mientras que en las dicotiledóneas no.
     ]
 
-    == Características celulares de los haces vasculares
+    == Características celulares de los haces vasculares de los tallos
 
     1. En el *cambium fascicular,* las células se caracterizan por ser rectangulares, de paredes delgadas y estar ordenadas en filas y columnas radiales.
     2. En el *metafloema,* las células poseen una *diferenciación centrípeta* o *diferenciación exarca,* pues las nuevas células siempre están "hacia adentro".
     3. En el *protofloema,* las células comienzan a _"perderse",_ pues se transforman en otros tejidos como colénquima o parénquima cortical. Por lo general, se observan como células más grandes y separadas.
     4. En el *protoxilema,* las células poseen lignificación escasa, la cual puede ser _anular_ o _espiral,_ sin cubrir toda la pared.
-    5. En el *metaxilema,* las células poseen una *diferenciación centrífuga* o *diferenciación endarca,* pues las células se van diferenciando desde el parénquima medular hacia el parénquima cortical. Las células diferenciadas, además, se caracterizan por poseer una pared secundaria lignificada, ya sea de forma _escaleriforme, reticulada_ o _punteada._ .
+    5. En el *metaxilema,* las células poseen una *diferenciación centrífuga* o *diferenciación endarca,* pues las células se van diferenciando desde el parénquima medular hacia el parénquima cortical. Las células diferenciadas, además, se caracterizan por poseer una pared secundaria lignificada, ya sea de forma _escaleriforme, reticulada_ o _punteada._
 
     == Haz vascular maduro
 
@@ -389,4 +383,151 @@
     + *Metafloema:* Divisiones periclinales del cambium fascicular.
     + *Protofloema:* Divisiones periclinales del procambium (zona de elongación).
 
+]
+
+#let clase-10-11 = [
+    #new-class(new-page: true, "Crecimiento primario y Formación de hojas", "25 de septiembre de 2023")
+
+    = Meristema apical radical o radicular
+
+    En esencia, podemos decir que este meristema es un meristema subapical, siendo el encargado de formar las raíces primarias.
+
+    A grandes rasgos, se puede clasificar como *cerrado* si se diferencia claramente el origen de las células derivadas, o *abierto* si no se puede diferenciar claramente este origen.
+
+    También, posee una estructura adicional, denominada *caliptra*, formada por células adultas. Su función es proteger el meristema apical (de paredes delgadas) de las presiones mecánicas del suelo.
+
+    A diferencia del meristema apical caulinar, cuyo sentido de formación de tejido celular adulto es hacia abajo, en el meristema apical radical *el tejido adulto se forma en ambos sentidos,* hacia abajo (_gravitropismo positivo,_ en la formación de la caliptra) y hacia arriba (_gravitropismo negativo,_ en la formación de la raíz misma). Además, otra diferencia con el meristema apical caulinar es que este meristema *no posee primordios foliares.*
+
+    Finalmente, es importante mencionar que la raíz *también tiene zona de división, de elongación y de diferenciación.*
+
+    #figure(
+        caption: "Corte longitudinal del meristema apical radicular",
+        image("../figures/fig_meristema_apical_radical.svg")
+    )
+
+    == Zona de diferenciación
+
+    En la zona de diferenciación se hallan los *pelos radicales,* los cuales aumentan la superficie de absorción de la raíz.
+
+    == Zona de elongación
+
+    En la zona de elongación hallamos 3 regiones: el meristema fundamental, la protodermis y el procambium.
+
+    === Meristema fundamental
+    Solamente se encuentra en la periferia, por lo que, al generar el sistema fundamental, *_sólo_ habrá parénquima cortical.* Adicionalmente, también se formará un tejido denominado *endodermis* cerca del centro de la raíz.
+
+    *¡OJO!* Aunque no hay parénquima medular en la mayoría de las raíces, en algunos casos sí lo hay. Habrá parénquima medular cuando la raíz no se origina de la radícula.
+
+    ¿Cuándo sucede esto? Recordemos que en el embrión está la radícula, de la cual saldrá la raíz. Sin embargo, a veces la raíz puede originarse a partir de los tallos, siendo una raíz adventicia, teniendo, finalmente, parénquima medular, pues los tallos también tienen parénquima medular.
+
+    #examplebox()[
+        Como en la monocotiledóneas las raíces tienen parénquima medular, sus raíces vienen de los tallos. Esto sucede porque su raíz proveniente de la radícula luego de un par de meses muere, quedando solo raíces adventicias.
+    ]
+
+    === Protodermis
+
+    Generará el sistema dérmico, el cual estará compuesto por los pelos radicales y la rizodermis (epidermis de la raíz).
+
+    === Procambium
+
+    En el caso de las raíces, el procambium *es central,* y generará el sistema vascular (xilema primario, floema primario y *periciclo*).
+
+    == Zona de división
+
+    En la zona de división hallamos un grupo de células que está en la "punta" del meristema, las cuales son de mayor tamaño que el resto de las células meristemáticas. *El ritmo de división de estas células es bajo,* por lo que "se las separa de las demás" y se les denomina *centro quiescente* (_quietud_), cuya función es estructural o de reserva. También sirve como un "punto de división" para diferenciar las funciones del meristema a su alrededor: las células a los lados generarán la protodermis y meristema fundamental; las que están debajo generarán la caliptra; y las que están arriba generarán el procambium y el periciclo.
+
+    === Caliptra
+
+    Como se mencionó, la caliptra es *formada por las células meristemáticas debajo del centro quiescente.* Estas células deben madurar muy rápido para poder reemplazar la caliptra vieja, pues esta tiene una vida corta debido a que debe penetrar en un medio sólido. Así, sus funciones se pueden concentrar como:
+    #enum(
+        numbering: "(a)",
+        [Protección apical],
+        [Ayuda al crecimiento apical, gracias a la secreción de *mucílago apical*, un polisacárido que contiene ciertas enzimas que facilitan el crecimiento de los ápices],
+        [Gravitropismo positivo de la raíz (hace que la raíz crezca hacia el centro de la Tierra). Las principales encargadas de esto son las células en el centro de la caliptra, denominadas como *células de la columela* ("columela" $arrow$ _"columnita"_), las cuales son células alargadas verticalmente y ricas en amiloplastos, y que se denominan como *estatocitos*.
+        ]
+    )
+
+    #block(breakable: false)[
+        == Haces vasculares del meristema apical radicular
+
+        #grid(
+            columns: (1fr, 1.5fr),
+            column-gutter: 11pt,
+            [
+                Son haces característicos de raíces con crecimiento primario tanto en monocotiledóneas como en dicotiledóneas. En estos haces, el *xilema se ordena como los radios de un círculo*, mientras que el *floema se encuentra en medio de los radios.*
+
+                Por fuera del haz radial está el *periciclo* y, más afuera del periciclo, se encuentra la *endodermis.* Fuera de la endodermis encontramos el *parénquima cortical* y, finalmente, la *rizodermis* con los pelos radicales.
+
+                #obsbox()[
+                    El periciclo *sí* es parte del haz vascular radial, pues tienen el *mismo origen:* el procambium.
+                ]
+            ],
+            figure(
+                caption: "Corte transversal de un haz vascular radical",
+                image("../figures/fig_haz_vascular_radical.svg")
+            )
+        )
+    ]
+
+    En cada radio de xilema, en la zona más interna, se haya el *metaxilema*, con células más diferenciadas, mientras que hacia afuera se haya el *protoxilema* con células menos desarrolladas. De esta forma, las células más viejas están hacia afuera, y las más nuevas hacia adentro, concluyendo que el *xilema tiene desarrollo exarco* o centrípeto.
+
+    #obsbox()[
+        Las raíces con más de 5 arcos o radios de xilema son características de las monocotiledóneas, y se denominan poliarcas.
+    ][
+        Raíces con menos cantidad de radios se denominan monarcas, diarcas, etc.
+    ]
+
+    Por su parte, en el floema hay células más pequeñas de floema en la zona más exterior, y células más nuevas y grandes en la zona más interior, habiendo un desarrollo centrípeto al igual que en el xilema. De esta manera, el *floema tiene desarrollo exarco* también.
+
+    === Periciclo
+
+    Corresponde a una sola capa de células, originada desde el procambium, siendo parte del sistema vascular. Esencialmente, corresponde a un *tejido meristemático,* por lo que se le puede catalogar como *meristema primario.* Además, es el *responsable de la formación de las raíces laterales*, y se encuentra implicado en el crecimiento secundario de la raíz.
+
+    #obsbox()[
+        Podemos inferir que las raíces laterales no salen desde el exterior de la raíz madre, sino que desde el interior de ella, específicamente desde el periciclo.
+    ]
+
+    // Diagrama
+
+    == Endodermis
+
+    El parénquima cortical de las raíces es un parénquima netamente almacenador. La endodermis corresponde a una *capa monoestratificada de células modificadas de la capa más interna de este parénquima cortical, rodeando el periciclo.*
+
+    Estas células de la endodermis, poseen en sus paredes radiales y transversales un mayor engrosamiento con _suberina,_ formando una banda que rodea la célula, llamada *banda de Caspary.*
+
+    De esta manera, el agua que entra a la raíz (*apoplásticamente*), deberá entrar al sistema vascular atravesando la pared tangencial de la célula de la endodermis, es decir, *simplásticamente.*
+
+    En las monocotiledóneas la endodermis no desaparece, pues no tienen crecimiento secundario. Sin embargo, aunque perdure, va a modificarse. Cuando la raíz primaria envejezca, la endodermis adquirirá lignina en las paredes radiales y en la pared tangencial interna (y a veces en la externa).
+
+    En las dicotiledóneas, por su parte, sí desaparecerá y será reemplazada por el xilema central.
+
+    == Sistemas radiculares
+
+    Existen dos sistemas radiculares o radicales, los cuales se diferencian por la forma de crecimiento de las raíces: el *axonomorfo alorrizo* y el *fibroso homorrizo.*
+
+    === Axomorfo alorrizo
+
+    #enum(
+        numbering: "(a)",
+        [Origen en la radícola del embrión.],
+        [Sin médula (parénquima medular).],
+        [Presente en la mayoría de las dicotiledóneas]
+    )
+
+    === Fibroso homorrizo
+
+    #enum(
+        numbering: "(a)",
+        [Origen en el tallo, pues son raíces adventicias.],
+        [Tienen parénquima medular.],
+        [Presente en monocotiledóneas y, en _menor medida,_ en dicotiledóneas.]
+    )
+
+    #obsbox()[
+        Estos pares de clasificaciones no son mutuamente excluyentes en ciertos niveles, pudiendo, además, tener la cualidad de ser *reservantes.* Por ello, es importante conocer el significado de estos términos clasificatorios:
+        / Axonomorfo: Presencia de una raíz principal de la que se ramifican otras más delgadas.
+        / Alorrizo: Con crecimiento "hacia abajo".
+        / Fibroso: Raíz sin un eje principal, con todas sus ramificaciones de igual importancia.
+        / Homorriza: Con crecimiento horizontal.
+    ]
 ]
