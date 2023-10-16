@@ -2,6 +2,7 @@
 #import "@preview/showybox:1.1.0": showybox
 #import "months/august.typ": *
 #import "months/september.typ": *
+#import "months/october.typ": *
 
 #show: properties.with()
 
@@ -16,3 +17,6 @@
 #clase-7-8
 #clase-9
 #clase-10-11
+
+// Octubre
+#clase-12-13
