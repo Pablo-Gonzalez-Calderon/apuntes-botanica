@@ -1,5 +1,5 @@
-#import "../template.typ": new-class, examplebox, obsbox, gloss
-#import "@preview/showybox:1.1.0": *
+#import "../template.typ": new-class, examplebox, obsbox, figure-box, gloss
+#import "@preview/showybox:2.0.1": *
 
 #let clase-7-8 = [
     #new-class(new-page: true, "Tipos celulares en plantas", "04 de septiembre de 2023")
@@ -205,29 +205,27 @@
 
     #figure(
         caption: "Zonas del meristema apical",
-        block(
-            inset: 1em,
-            [
-                #grid(
-                    columns: (1fr, .5fr),
-                    column-gutter: 11pt,
-                    $ mat("Célula se divide", &arrow.double "Zona de división"; arrow.b; "Célula derivada se elonga", &arrow.double "Zona de elongación"; arrow.b; "Célula se diferencia", &arrow.double "Zona de diferenciación"; delim: #none) $,
-                    [
-                        #v(1em)
-                        #text(rgb(106,17,124), $ "Zona meristemática" $)
-                    ]
+        figure-box()[
+            #grid(
+                columns: (1fr, .5fr),
+                column-gutter: 11pt,
+                $ mat("Célula se divide", &arrow.double "Zona de división"; arrow.b; "Célula derivada se elonga", &arrow.double "Zona de elongación"; arrow.b; "Célula se diferencia", &arrow.double "Zona de diferenciación"; delim: #none) $,
+                [
+                    #v(1em)
+                    #text(rgb(106,17,124), $ "Zona meristemática" $)
+                ]
+            )
+            #place(
+                top,
+                dx: -1em,
+                dy: -0.65em,
+                block(
+                    fill: rgb(106, 17, 124, 50),
+                    width: 100% + 2em,
+                    height: 4.5em
                 )
-                #place(
-                    top,
-                    dy: -1em,
-                    block(
-                        fill: rgb(106, 17, 124, 50),
-                        width: 100%,
-                        height: 5em
-                    )
-                )
-            ]
-        )
+            )
+        ]
     )<meristema-apical>
 
     #obsbox()[
@@ -491,6 +489,12 @@
 
     == Endodermis
 
+    #figure(
+        caption: "Células de la endodermis, con banda de Caspary",
+        image("../figures/fig_endodermis.svg"),
+        placement: top
+    )
+
     El parénquima cortical de las raíces es un parénquima netamente almacenador. La endodermis corresponde a una *capa monoestratificada de células modificadas de la capa más interna de este parénquima cortical, rodeando el periciclo.*
 
     Estas células de la endodermis, poseen en sus paredes radiales y transversales un mayor engrosamiento con _suberina,_ formando una banda que rodea la célula, llamada *banda de Caspary.*
@@ -502,6 +506,11 @@
     En las dicotiledóneas, por su parte, sí desaparecerá y será reemplazada por el xilema central.
 
     == Sistemas radiculares
+
+    #figure(
+        caption: "Sistemas radiculares visualmente",
+        image("../figures/fig_sistemas_radicales.svg", height: 6cm)
+    )
 
     Existen dos sistemas radiculares o radicales, los cuales se diferencian por la forma de crecimiento de las raíces: el *axonomorfo alorrizo* y el *fibroso homorrizo.*
 
@@ -530,4 +539,93 @@
         / Fibroso: Raíz sin un eje principal, con todas sus ramificaciones de igual importancia.
         / Homorriza: Con crecimiento horizontal.
     ]
+
+    = Formación, histología y morfología de las hojas
+
+    Las hojas son unos de los órganos más modificables de las plantas, pudiendo presentarse en varias formas distintas a su constitución "normal", las cuales usualmente se asocian con la realización de fotosíntesis.
+
+    En este contexto, para la formación de la hojas intervienen tres meristemas, los cuales se encuentran listados en la @meristemas-formacion-foliar
+
+    #figure(
+        caption: "Meristemas que intervienen en la formación de la hoja",
+        figure-box()[
+            $ "Apical" &arrow "Crecimiento longitudinal" \
+
+            "Intercalar" &arrow "Crecimiento longitudinal" \
+
+            "Marginal" &arrow "Crecimiento de la lámina en expansión" $
+        ]
+    )<meristemas-formacion-foliar>
+
+    == Tipos de hojas según su función
+
+    Como se mencionó, las hojas son órganos altamente modificables, hallándose en varias formas posibles, las cuales son listadas a continuación:
+
+    + *Nomófilos:* Son las hojas "normales", las que usualmente todos conocemos y las que realizan fotosíntesis.
+    + *Catáfilos:* Son hojas de tallos subterráneos con funciones de protección o almacenamiento.
+    + *Antófilos:* Son las hojas que componen las flores.
+    + *Hipsófilos:* Son hojas encargadas de proteger a las flores.
+    + *Cotiledones o embriófilos:* Son las hojas embrionarias que aparecen una vez que germina la semilla.
+    + *Hojas como espinas:* Son hojas que tienen usualmente la función de dar protección a la planta o, a veces, agarre.
+    + *Hojas suculentas:* Son hojas almacenadoras de principalmente de agua, pudiendo también almacenar nutrientes.
+    + *Hojas como espatas:* Son hojas que reemplazan o ayudan a las hojas de la flor en su labor de atraer a los polinizadores con sus colores vistosos y llamativos.
+    + *Hojas como escamas:* Son hojas de menor tamaño cuya función principal deja de ser la fotosíntesis y pasa a ser la protección de tejidos, como los meristemas.
+    + *Hojas esclerófilas:* Son hojas duras y robustas con textura similar a la del cuero. Poseen estas características para durar y sobrevivir largas épocas de sequía.
+
+    == Tipos de hojas según su estructura
+
+    Las plantas se dividen en dos grandes grupos según su estructura: *megáfilos* y *micrófilos.*
+
+    === Micrófilos
+
+    Carecen de venación, o esta se encuentra reducida a un solo nervio, sin interrupción del haz vascular caulinar (esto es, no posee un _"espacio foliar"#footnote("Término inexacto, acuñado para explicar mejor esta situación.")_ entre el haz vascular de la rama principal, y el haz vascular suyo propio). Se dice que los micrófilos son *hojas no verdaderas o reducidas.*
+
+    *Origen*
+
+    Los micrófilos probablemente se originaron a partir de una prolongación espinosa.
+
+    === Megáfilos
+
+    Presentan una venación compleja, presentando una interrupción respecto al haz vascular caulinar. Se dice que los megáfilos son *hojas verdaderas.*
+
+    *Origen*
+
+    Los megáfilos probablemente se originaron de una modificación de un grupo de ramas.
+
+    == Desarrollo de la hoja
+
+    === Iniciación
+
+    Ocurre en los costados del ápice del meristema apical, con divisiones anticlinales de células de la túnica, y divisiones periclinales del grupo de células del corpus.
+
+    === Desarrollo del eje foliar
+
+    Este precede al desarrollo de la lámina. El primordio foliar forma un cono con la *cara adaxial (superior) aplastada,* mientras que el el ápice deja pronto de dividirse y sus células maduran. A partir de entonces, el aumento en longitud de la hoja se debe a elongaciones y divisiones de células distantes del ápice (*crecimiento intercalar*). Finalmente, existe un aumento en longitud del eje acompañado de un aumento en anchura (debido al *meristema marginal*)
+
+    == Histología de la hoja
+
+    Dos epidermis forman las hojas: una epidermis superior y una epidermis inferior. La epidermis superior se encuentra en la *cara adaxial* (por lo que también se le llama *epidermis adaxial*), mientras que la epidermis inferior se encuentra en la *cara abaxial* (por lo que también se llama *epidermis abaxial*).
+
+    #obsbox()[
+        Recordemos que la epidermis se origina a partir de divisiones periclinales de la protodermis
+    ][
+        Si la hoja presenta *hipodermis* (_"debajo de la piel o epidermis"_), esta se origina a partir de divisiones periclinales del meristema fundamental
+    ]
+
+    Tanto en la cara abaxial como adaxial se encuentran estomas; sin embargo, lo más común es hallarlos en la cara abaxial. Cuando solo hay estomas en la cara inferior de la hoja, se llama *hipostomática*, mientras que cuando solo hay estomas en la cara superior se llama *epistomática*, y, si hay en ambas caras, se llama *anfiestomática.* Adicional a lo anterior, también pueden haber tricomas en ambas caras.
+
+    Recordemos, además, que en el interior de la hoja está, cerca de la zona superior, el *parénquima _empalizado_* (clorénquima), y en la zona inferior está el *parénquima _esponjoso_* (aerénquima). En medio de los parénquimas anteriores pasan los haces vasculares. El xilema pasa cerca de la zona superior, mientras que el floema pasa cerca de la zona inferior, formando la *nervadura*.
+
+    En conjunto, los parénquimas anteriores forman el *mesófilo,* el cual no incluye el sistema dérmico, ni fundamental.
+
+    En este contexto, si la hoja posee ambas zonas de su mesófilo con parénquimas distintos (una parte con clorénquima y otra con aerénquima), se denomina *bifacial.* Si, por otro lado, posee las mismas estructuras a ambos lados, se denomina *equifacial.*
+
+    #obsbox()[
+        La epidermis de la hoja _suele_ ser monoestratificada. Si tiene más de una capa, diremos que es pluriestratificada.
+    ]
+
+    Finalmente, es importante recordar que sobre la epidermis de la hoja hay una capa de cutina que permite evitar la pérdida de agua de las hojas.
+
+    // Faltó ver la morfología de las hojas
+
 ]

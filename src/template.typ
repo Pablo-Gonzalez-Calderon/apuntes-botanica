@@ -1,4 +1,4 @@
-#import "@preview/showybox:1.1.0": showybox
+#import "@preview/showybox:2.0.1": showybox
 
 #let properties(body) = {
   set heading(numbering: "1.")
@@ -95,4 +95,15 @@
     #align(center, text(size:1.2em, style: "italic", "Glosario"))
     #columns(2, body)
   ]
+)
+
+#let figure-box(..body) = showybox(
+  frame: (
+    radius: 0pt,
+  ),
+  shadow: (
+    color: black,
+    offset: 3pt
+  ),
+  ..body
 )
