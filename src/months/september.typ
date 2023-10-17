@@ -620,6 +620,12 @@
 
     En este contexto, si la hoja posee ambas zonas de su mesófilo con parénquimas distintos (una parte con clorénquima y otra con aerénquima), se denomina *bifacial.* Si, por otro lado, posee las mismas estructuras a ambos lados, se denomina *equifacial.*
 
+    #figure(
+        caption: [Corte transversal de una hoja común. Aunque no esté ilustrado, es importante recordar que *sobre la epidermis hay cutina y tricomas*],
+        placement: top,
+        image("../figures/fig_corte_transversal_hoja.svg", height: 8cm)
+    )
+
     #obsbox()[
         La epidermis de la hoja _suele_ ser monoestratificada. Si tiene más de una capa, diremos que es pluriestratificada.
     ]
