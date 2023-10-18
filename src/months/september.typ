@@ -20,6 +20,10 @@
 
     Lás células formadas a partir de los meristemas están conectadas entre sí, formando el *simplasto,* permitiendo que las células interactúen entre sí y *formen tejidos.* Y, a su vez, los tejidos pueden interactuar entre sí y formar *sistemas de tejidos.*
 
+    #obsbox()[
+        Los tejidos, en botánica, suelen clasificarse en *simples* o *complejos*, dependiendo de si están formados por un solo tipo de células o varios, respectivamente.
+    ]
+
     #examplebox()[
         Ejemplos de células son las traqueidas, las células oclusivas, o las esclereídas.
     ][
@@ -29,7 +33,9 @@
     ]
 
     #obsbox()[
-        Las plantas pueden dividirse en *briófitas* (no vasculares como el musgo) y *traqueófitas* (plantas vasculares)
+        Las plantas pueden dividirse en *briófitas* (no vasculares como el musgo) y *traqueófitas* (plantas vasculares).
+    ][
+        Las briófitas, entre otras cosas, se caracterizan porque no poseen tejidos diferenciados o especializados.
     ]
 
     = Sistema dérmico
@@ -55,6 +61,8 @@
     Estas células *suelen ser isodiamétricas.*
 
     La epidermis puede tener más de una capa de células (monoestratificada), pudiendo ser biestratificada, triestratificada, etc.
+
+    Es importante saber que la epidermis estará presente desde períodos tempranos de la vida de la planta y que, posteriormente conforme esta vaya creciendo, la epidermis será "reemplazada" por una capa aún más superior: la *peridermis.*
 
     #obsbox()[
         Los pigmentos de la vacuola son hidrosolubles, mientras que los pigmentos de los cloroplastos y cromoplastos son liposolubles.
@@ -304,43 +312,45 @@
 
     === Xilema
 
-        Sus células tienen una pared secundaria lignificada, con lumen amplio sin contenido vivo, y que realiza transporte de agua y solutos.
+    Sus células tienen una pared secundaria lignificada, con lumen amplio sin contenido vivo, y que realiza _transporte de agua y solutos._
 
-        Sus tipos celulares se subdividen en *tráqueas* con placas de perforación, sin pared primaria y lámina media; y *traqueideas* sin disolución de pared primaria y lámina media.
+    Sus tipos celulares se subdividen en *tráqueas* con placas de perforación en sus extremos para que pase el agua, sin pared primaria y sin lámina media; y *traqueideas* sin disolución de pared primaria ni lámina media. Hay zonas específicas en las traqueideas en las que solamente hay pared primaria, existiendo una abertura hacia el exterior de la célula. Estas zonas se denominan *punteaduras areoladas,* y a través de ellas, las alargadas traqueideas pueden transportarse agua y solutos. Las punteaduras también están presentes en las tráqueas.
 
-        En algunos casos, cuando se forma el metaxilema, durante la conformación del xilema primario, se puede generar un espacio sin células, conocido como *isla.*
+    En algunos casos, cuando se forma el metaxilema, durante la conformación del xilema primario, se puede generar un espacio sin células, conocido como *isla.*
+
+    #obsbox()[
+        A la tráquea a veces también se le puede denominar *elementos del vaso,* que, en su totalidad (todas las tráqueas unidas) forman el *vaso,* conducto continuo con el mayor diámetro existente en toda la planta.
+    ][
+        Las traqueideas son más comunes que las tráqueas en las plantas. De hecho, son las únicas conductoras de agua en las coníferas, helechos y plantas vascularizadas sin flores en general. Las tráqueas, por su parte, están en las plantas con flores y en unas pocas gimnospermas.
+    ]
 
     === Floema
 
-    Su función es transportar y repartir por toda la planta las sustancias carbonadas producidas durante la fotosíntesis, aquellas ubicadas en los lugares de almacenamiento, u hormonas vegetales.
+    Su función es _transportar y repartir por toda la planta las sustancias carbonadas producidas durante la fotosíntesis_, aquellas ubicadas en los lugares de almacenamiento, u hormonas vegetales.
 
     Sus células tienen una pared primaria y contenido vivo.
 
-    Sus tipos celulares se subdividen en *tubos cribosos*, membranas plasmáticas continuas con proteínas periféricas y placa cribosa con callosa; y *células acompañantes*, con núcleo, citoplasma, conexión plasmodésmica, tubo criboso y abundantes mitocondrias.
-
-    == Formación de los haces vasculares en tallos
-
-    Recordemos que a partir del procambium se origina el protoxilema y el protofloema. El *protoxilema* crece "hacia adentro" (*centrípetamente*) y el *protofloema* crece "hacia afuera" (*centrífugamente*). Ambos se empiezan a formar a partir de _divisiones periclinales_ del procambium.
+    Sus tipos celulares se subdividen en *tubos cribosos* (células anucleadas): membranas plasmáticas continuas con proteínas periféricas y placa cribosa (pared celular con poros que bordean la membrana y permiten que los materiales pasen de una célula a otra sin cruzar la membrana plasmática ni la pared celular) con calosa; y *células acompañantes*, con núcleo, citoplasma, conexión plasmodésmica y abundantes mitocondrias.
 
     #grid(
-        columns: (1fr, .9fr),
+        columns: (1fr, .85fr),
         column-gutter: 11pt,
         [
+            #obsbox()[
+                En las plantas sin flores, como los helechos o las coníferas, el floema consta de un tipo de célula conductora más primitiva, denominada *célula cribosa,* cuyo equivalente a célula acompañante se llama *célula albuminosa.*
+            ][
+                Al conjunto de sustancias que son transportadas por el xilema y el floema se les denomina *savia.*
+            ]
+
+            == Formación de los haces vasculares en tallos
+
+            Recordemos que a partir del procambium se origina el protoxilema y el protofloema. El *protoxilema* crece "hacia adentro" (*centrípetamente*) y el *protofloema* crece "hacia afuera" (*centrífugamente*). Ambos se empiezan a formar a partir de _divisiones periclinales_ del procambium.
+
             #obsbox()[
                 En las dicotiledóneas, los haces vasculares tienden a formar un anillo, dejando una clara separación entre el parénquima cortical y el parénquima medular. Por su parte, en las monocotiledóneas esto no sucede tan a menudo.
             ]
 
             Posteriormente, en la zona de diferenciación, el procambium se convertirá en el *cambium fascicular*, dando origen al *metafloema* y al *metaxilema*, los cuales, ase encuentran entre el protofloema y protoxilema, respectivamente, y el cambium, como se ilustra en la @haces-vasculares.
-
-            Como el xilema y el floema están *enfrentados,* decimos que estamos ante un *haz vascular colateral.*
-
-            No todas las plantas tienen haces vasculares con cambium fascicular que les permita seguir creciendo. Cuando un haz vascular lo presente, decimos que son *abiertos,* si no, decimos que son *cerrados.*
-
-            #examplebox()[
-                Las monocotiledóneas se caracterizan por no poseer cambium fascicular, pues se ha agotado. Un ejemplo se haya en la @haces-vasculares-cerrados
-            ]
-
-            La unión del protoxilema y el metaxilema recibe el nombre de *xilema primario.* Mientras que la unión del protofloema y el metafloema recibe el nombre de *floema primario.*
         ],[
             #figure(
                 caption: "Desarrollo de haces vasculares, y su posterior conformación en haces vasculares abiertos (con cambium fascicular).",
@@ -348,6 +358,16 @@
             )<haces-vasculares>
         ]
     )
+
+    Como el xilema y el floema están *enfrentados,* decimos que estamos ante un *haz vascular colateral.*
+
+    No todas las plantas tienen haces vasculares con cambium fascicular que les permita seguir creciendo. Cuando un haz vascular lo presente, decimos que son *abiertos,* si no, decimos que son *cerrados.*
+
+    #examplebox()[
+        Las monocotiledóneas se caracterizan por no poseer cambium fascicular, pues se ha agotado. Un ejemplo se haya en la @haces-vasculares-cerrados
+    ]
+
+    La unión del protoxilema y el metaxilema recibe el nombre de *xilema primario.* Mientras que la unión del protofloema y el metafloema recibe el nombre de *floema primario.*
 
     #figure(
         caption: [
