@@ -175,7 +175,7 @@
 
     Esencialmente, el crecimiento primario permite el crecimiento en *longitud* de tallos y raíces (y la expansión _indirecta_ de hojas y frutos). Mientras que el crecimiento secundario permite el crecimiento en *grosor*.
 
-    Aunque suene redundante, es importante mencionar que el crecimiento primario está asociado a *meristemas primarios.*
+    Aunque suene redundante, es importante mencionar que el crecimiento primario está asociado a *meristemas primarios,* los cuales surgen del meristema apical y corresponden, fundamentalmente, a la protodermis, el meristema fundamental y el procámbium.
 
     #obsbox()[
         De esta forma, se infiere que el crecimiento secundario no ocurrirá en todas las plantas y las células adultas serán las que, en algunos casos, serán las que se dividen al recuperar parte de sus propiedades meristemáticas.
@@ -205,7 +205,7 @@
         Las células adultas no son capaces de dividirse.
     ]
 
-    = Meristemas primarios o apicales
+    = Meristemas apicales
 
     Siempre han estado presentes, desde la semilla; más específicamente desde el embrión. El meristema que dará origen al tallo, se llama *meristema apical caulinar*, mientras que el meristema que dará origen a la raíz se denomina *meristema apical radicular*
 
@@ -289,7 +289,11 @@
 
     Meristema primario compuesto de una zona de división, una zona de elongación y una zona de diferenciación.
 
-    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procambium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de meristema fundamental, el cual dará origen a células del sistema fundamental (parénquima cortical, médula --en algunas plantas-- y endodermis).
+    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procámbium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de meristema fundamental, el cual dará origen a células del sistema fundamental (parénquima cortical, médula --en algunas plantas-- y endodermis).
+
+    #obsbox()[
+        El modelo de desarrollo del meristema apical descrito anteriormente se conoce como _teoría túnica-cuerpo,_ existiendo, además de ella otra teoría que sirve para explicar lo mismo, pero de otra manera: la _teoría de zonación._
+    ]
 
     #figure(
         caption: "Corte longitudinal (izquierda) y transversal (derecha) de un meristema apical caulinar",
@@ -306,7 +310,7 @@
 
     Dará origen al meristema fundamental en la zona de elongación, y al parénquima cortical y parénquima medular en la zona de diferenciación.
 
-    Además, también dará origen al procambium en la zona de elongación, el cual producirá el *protoxilema* y el *protofloema*. Luego, en la zona de diferenciación,originará el *cambium fascicular* para dar origen al *xilema primario* y al *floema primario.*
+    Además, también dará origen al procámbium en la zona de elongación, el cual producirá el *protoxilema* y el *protofloema*. Luego, en la zona de diferenciación,originará el *cambium fascicular* para dar origen al *xilema primario* y al *floema primario.*
 
     = Haces vasculares del meristema apical caulinar
 
@@ -344,13 +348,13 @@
 
             == Formación de los haces vasculares en tallos
 
-            Recordemos que a partir del procambium se origina el protoxilema y el protofloema. El *protoxilema* crece "hacia adentro" (*centrípetamente*) y el *protofloema* crece "hacia afuera" (*centrífugamente*). Ambos se empiezan a formar a partir de _divisiones periclinales_ del procambium.
+            Recordemos que a partir del procámbium se origina el protoxilema y el protofloema. El *protoxilema* crece "hacia adentro" (*centrípetamente*) y el *protofloema* crece "hacia afuera" (*centrífugamente*). Ambos se empiezan a formar a partir de _divisiones periclinales_ del procámbium.
 
             #obsbox()[
                 En las dicotiledóneas, los haces vasculares tienden a formar un anillo, dejando una clara separación entre el parénquima cortical y el parénquima medular. Por su parte, en las monocotiledóneas esto no sucede tan a menudo.
             ]
 
-            Posteriormente, en la zona de diferenciación, el procambium se convertirá en el *cambium fascicular*, dando origen al *metafloema* y al *metaxilema*, los cuales, ase encuentran entre el protofloema y protoxilema, respectivamente, y el cambium, como se ilustra en la @haces-vasculares.
+            Posteriormente, en la zona de diferenciación, el procámbium se convertirá en el *cambium fascicular*, dando origen al *metafloema* y al *metaxilema*, los cuales, ase encuentran entre el protofloema y protoxilema, respectivamente, y el cambium, como se ilustra en la @haces-vasculares.
         ],[
             #figure(
                 caption: "Desarrollo de haces vasculares, y su posterior conformación en haces vasculares abiertos (con cambium fascicular).",
@@ -396,10 +400,10 @@
     == Haz vascular maduro
 
     Posee las siguientes estructuras:
-    + *Protoxilema:* Divisiones periclinales del procambium (zona de elongación).
+    + *Protoxilema:* Divisiones periclinales del procámbium (zona de elongación).
     + *Metaxilema:* Divisiones periclinales del cambium fascicular.
     + *Metafloema:* Divisiones periclinales del cambium fascicular.
-    + *Protofloema:* Divisiones periclinales del procambium (zona de elongación).
+    + *Protofloema:* Divisiones periclinales del procámbium (zona de elongación).
 
 ]
 
@@ -409,6 +413,8 @@
     = Meristema apical radical o radicular
 
     En esencia, podemos decir que este meristema es un meristema subapical, siendo el encargado de formar las raíces primarias.
+
+    Recordemos que la raíz es la encargada de la producción de hormonas y otras sustancias que regulan el desarrollo y estructura vegetal, además de la absorción de agua y minerales del suelo. Otras raíces modificadas (aéreas como los epífitos, tabulares o contrafuertes, de reserva, entre otras) cumplen funciones más diversas. También pueden existir relaciones de cooperación entre raíces y hongos (endomicorrizas y ectomicorrizas), y raíces y bacterias (para la obtención vegetal de amoniaco).
 
     A grandes rasgos, se puede clasificar como *cerrado* si se diferencia claramente el origen de las células derivadas, o *abierto* si no se puede diferenciar claramente este origen.
 
@@ -429,7 +435,7 @@
 
     == Zona de elongación
 
-    En la zona de elongación hallamos 3 regiones: el meristema fundamental, la protodermis y el procambium.
+    En la zona de elongación hallamos 3 regiones: el meristema fundamental, la protodermis y el procámbium.
 
     === Meristema fundamental
     Solamente se encuentra en la periferia, por lo que, al generar el sistema fundamental, *_sólo_ habrá parénquima cortical.* Adicionalmente, también se formará un tejido denominado *endodermis* cerca del centro de la raíz.
@@ -446,13 +452,13 @@
 
     Generará el sistema dérmico, el cual estará compuesto por los pelos radicales y la rizodermis (epidermis de la raíz).
 
-    === Procambium
+    === Procámbium
 
-    En el caso de las raíces, el procambium *es central,* y generará el sistema vascular (xilema primario, floema primario y *periciclo*).
+    En el caso de las raíces, el procámbium *es central,* y generará el sistema vascular (xilema primario, floema primario y *periciclo*).
 
     == Zona de división
 
-    En la zona de división hallamos un grupo de células que está en la "punta" del meristema, las cuales son de mayor tamaño que el resto de las células meristemáticas. *El ritmo de división de estas células es bajo,* por lo que "se las separa de las demás" y se les denomina *centro quiescente* (_quietud_), cuya función es estructural o de reserva. También sirve como un "punto de división" para diferenciar las funciones del meristema a su alrededor: las células a los lados generarán la protodermis y meristema fundamental; las que están debajo generarán la caliptra; y las que están arriba generarán el procambium y el periciclo.
+    En la zona de división hallamos un grupo de células que está en la "punta" del meristema, las cuales son de mayor tamaño que el resto de las células meristemáticas. *El ritmo de división de estas células es bajo,* por lo que "se las separa de las demás" y se les denomina *centro quiescente* (_quietud_), cuya función es estructural o de reserva. También sirve como un "punto de división" para diferenciar las funciones del meristema a su alrededor: las células a los lados generarán la protodermis y meristema fundamental; las que están debajo generarán la caliptra; y las que están arriba generarán el procámbium y el periciclo.
 
     === Caliptra
 
@@ -460,7 +466,7 @@
     #enum(
         numbering: "(a)",
         [Protección apical],
-        [Ayuda al crecimiento apical, gracias a la secreción de *mucílago apical*, un polisacárido que contiene ciertas enzimas que facilitan el crecimiento de los ápices],
+        [Ayuda al crecimiento apical, gracias a la secreción de *mucílago apical*, un polisacárido que contiene ciertas enzimas que facilitan el crecimiento de los ápices, formando una capa viscosa denominada *mucigel.*],
         [Gravitropismo positivo de la raíz (hace que la raíz crezca hacia el centro de la Tierra). Las principales encargadas de esto son las células en el centro de la caliptra, denominadas como *células de la columela* ("columela" $arrow$ _"columnita"_), las cuales son células alargadas verticalmente y ricas en amiloplastos, y que se denominan como *estatocitos*.
         ]
     )
@@ -477,7 +483,7 @@
                 Por fuera del haz radial está el *periciclo* y, más afuera del periciclo, se encuentra la *endodermis.* Fuera de la endodermis encontramos el *parénquima cortical* y, finalmente, la *rizodermis* con los pelos radicales.
 
                 #obsbox()[
-                    El periciclo *sí* es parte del haz vascular radial, pues tienen el *mismo origen:* el procambium.
+                    El periciclo *sí* es parte del haz vascular radial, pues tienen el *mismo origen:* el procámbium.
                 ]
             ],
             figure(
@@ -499,7 +505,7 @@
 
     === Periciclo
 
-    Corresponde a una sola capa de células, originada desde el procambium, siendo parte del sistema vascular. Esencialmente, corresponde a un *tejido meristemático,* por lo que se le puede catalogar como *meristema primario.* Además, es el *responsable de la formación de las raíces laterales*, y se encuentra implicado en el crecimiento secundario de la raíz.
+    Corresponde a una sola capa de células, originada desde el procámbium, siendo parte del sistema vascular. Esencialmente, corresponde a un *tejido meristemático,* por lo que se le puede catalogar como *meristema primario.* Además, es el *responsable de la formación de las raíces laterales*, y se encuentra implicado en el crecimiento secundario de la raíz.
 
     #obsbox()[
         Podemos inferir que las raíces laterales no salen desde el exterior de la raíz madre, sino que desde el interior de ella, específicamente desde el periciclo.
@@ -532,24 +538,25 @@
         image("../figures/fig_sistemas_radicales.svg", height: 6cm)
     )
 
-    Existen dos sistemas radiculares o radicales, los cuales se diferencian por la forma de crecimiento de las raíces: el *axonomorfo alorrizo* y el *fibroso homorrizo.*
+    Existen dos sistemas radiculares o radicales, los cuales se diferencian por la forma de crecimiento de las raíces: el *axonomorfo alorrizo* y el *fibroso homorrizo.* Ambos sistemas pueden entenderse como dos "estrategias" diferentes para obtener agua.
 
-    === Axomorfo alorrizo
+    === Axomorfo alorrizo (o primario)
 
     #enum(
         numbering: "(a)",
         [Origen en la radícola del embrión.],
         [Sin médula (parénquima medular).],
-        [Presente en la mayoría de las dicotiledóneas]
+        [Presente en la mayoría de las dicotiledóneas y gimnospermas],
+        [Se caracteriza por tener una raíz principal o _raíz axonomorfa,_ acompañada por raíces laterales o secundarias.]
     )
 
-    === Fibroso homorrizo
+    === Fibroso homorrizo (o fasciculado)
 
     #enum(
         numbering: "(a)",
         [Origen en el tallo, pues son raíces adventicias.],
         [Tienen parénquima medular.],
-        [Presente en monocotiledóneas y, en _menor medida,_ en dicotiledóneas.]
+        [Presente en monocotiledóneas, en plantas sin semillas y, en _menor medida,_ en dicotiledóneas.]
     )
 
     #obsbox()[
@@ -594,7 +601,7 @@
 
     == Tipos de hojas según su estructura
 
-    Las plantas se dividen en dos grandes grupos según su estructura: *megáfilos* y *micrófilos.*
+    Las hojas se dividen en dos grandes grupos según su estructura: *megáfilos* y *micrófilos.*
 
     === Micrófilos
 
@@ -627,8 +634,6 @@
     Dos epidermis forman las hojas: una epidermis superior y una epidermis inferior. La epidermis superior se encuentra en la *cara adaxial* (por lo que también se le llama *epidermis adaxial*), mientras que la epidermis inferior se encuentra en la *cara abaxial* (por lo que también se llama *epidermis abaxial*).
 
     #obsbox()[
-        Recordemos que la epidermis se origina a partir de divisiones periclinales de la protodermis
-    ][
         Si la hoja presenta *hipodermis* (_"debajo de la piel o epidermis"_), esta se origina a partir de divisiones periclinales del meristema fundamental
     ]
 
@@ -636,7 +641,7 @@
 
     Recordemos, además, que en el interior de la hoja está, cerca de la zona superior, el *parénquima _empalizado_* (clorénquima), y en la zona inferior está el *parénquima _esponjoso_* (aerénquima). En medio de los parénquimas anteriores pasan los haces vasculares. El xilema pasa cerca de la zona superior, mientras que el floema pasa cerca de la zona inferior, formando la *nervadura*.
 
-    En conjunto, los parénquimas anteriores forman el *mesófilo,* el cual no incluye el sistema dérmico, ni fundamental.
+    En conjunto, los parénquimas anteriores, junto con la nervadura, forman el *mesófilo,* el cual no incluye el sistema dérmico.
 
     En este contexto, si la hoja posee ambas zonas de su mesófilo con parénquimas distintos (una parte con clorénquima y otra con aerénquima), se denomina *bifacial.* Si, por otro lado, posee las mismas estructuras a ambos lados, se denomina *equifacial.*
 
