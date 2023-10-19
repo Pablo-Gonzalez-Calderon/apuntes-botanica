@@ -202,7 +202,7 @@
     )
 
     #obsbox()[
-        Las células adultas no son capaces de dividirse.
+        Las células adultas no son capaces de dividirse (en la mayoría de los casos).
     ]
 
     = Meristemas apicales
@@ -289,7 +289,7 @@
 
     Meristema primario compuesto de una zona de división, una zona de elongación y una zona de diferenciación.
 
-    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procámbium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de meristema fundamental, el cual dará origen a células del sistema fundamental (parénquima cortical, médula --en algunas plantas-- y endodermis).
+    En la zona más apical (división), se haya la *túnica* y el *corpus*, zonas con células meristemáticas que darán origen a varias estructuras, y que usualmente lucen de un color más oscurecido al teñirse. En la zona de elongación se haya el *procámbium* y la *protodermis*, tejidos meristemáticos que darán origen al sistema vascular y dérmico, respectivamente. Ambos tejidos se encuentran rodeados de *meristema fundamental*, el cual dará origen a células del sistema fundamental (parénquima cortical, médula ---en algunas plantas--- y endodermis ---en las raíces---).
 
     #obsbox()[
         El modelo de desarrollo del meristema apical descrito anteriormente se conoce como _teoría túnica-cuerpo,_ existiendo, además de ella otra teoría que sirve para explicar lo mismo, pero de otra manera: la _teoría de zonación._
@@ -386,14 +386,14 @@
     #obsbox()[
         Las células "más viejas" de un haz vascular se hallan más alejadas del cambium fascicular (i.e. del centro del haz).
     ][
-        El haz vascular las monocotiledóneas se encuentra rodeado de fibras esclerenquimáticas, mientras que en las dicotiledóneas no.
+        El haz vascular de las monocotiledóneas se encuentra rodeado de fibras esclerenquimáticas, mientras que en las dicotiledóneas no.
     ]
 
     == Características celulares de los haces vasculares de los tallos
 
     1. En el *cambium fascicular,* las células se caracterizan por ser rectangulares, de paredes delgadas y estar ordenadas en filas y columnas radiales.
-    2. En el *metafloema,* las células poseen una *diferenciación centrípeta* o *diferenciación exarca,* pues las nuevas células siempre están "hacia adentro".
-    3. En el *protofloema,* las células comienzan a _"perderse",_ pues se transforman en otros tejidos como colénquima o parénquima cortical. Por lo general, se observan como células más grandes y separadas.
+    2. En el *metafloema,* las células poseen una *diferenciación centrípeta* o *diferenciación exarca,* pues las células viejas siempre están más "hacia afuera".
+    3. En el *protofloema,* las células comienzan a _"perderse",_ pues se transforman en otros tejidos como colénquima o parénquima cortical.
     4. En el *protoxilema,* las células poseen lignificación escasa, la cual puede ser _anular_ o _espiral,_ sin cubrir toda la pared.
     5. En el *metaxilema,* las células poseen una *diferenciación centrífuga* o *diferenciación endarca,* pues las células se van diferenciando desde el parénquima medular hacia el parénquima cortical. Las células diferenciadas, además, se caracterizan por poseer una pared secundaria lignificada, ya sea de forma _escaleriforme, reticulada_ o _punteada._
 
@@ -431,7 +431,7 @@
 
     == Zona de diferenciación
 
-    En la zona de diferenciación se hallan los *pelos radicales,* los cuales aumentan la superficie de absorción de la raíz.
+    En la zona de diferenciación se hallan los *pelos radicales,* los cuales aumentan la superficie de absorción de la raíz; el *parénquima cortical (o córtex),* y el *haz vascular radical.*
 
     == Zona de elongación
 
@@ -458,7 +458,7 @@
 
     == Zona de división
 
-    En la zona de división hallamos un grupo de células que está en la "punta" del meristema, las cuales son de mayor tamaño que el resto de las células meristemáticas. *El ritmo de división de estas células es bajo,* por lo que "se las separa de las demás" y se les denomina *centro quiescente* (_quietud_), cuya función es estructural o de reserva. También sirve como un "punto de división" para diferenciar las funciones del meristema a su alrededor: las células a los lados generarán la protodermis y meristema fundamental; las que están debajo generarán la caliptra; y las que están arriba generarán el procámbium y el periciclo.
+    En la zona de división hallamos un grupo de células que está en la "punta" del meristema, las cuales son de mayor tamaño que el resto de las células meristemáticas. *El ritmo de división de estas células es bajo,* por lo que "se las separa de las demás" y se les denomina *centro quiescente* (_quietud_), cuya función es estructural o de reserva. También sirve como un "punto de división" para diferenciar las funciones del meristema a su alrededor: las células a los lados generarán la protodermis y meristema fundamental; las que están debajo generarán la caliptra; y las que están arriba generarán el procámbium y el meristema fundamental.
 
     === Caliptra
 
@@ -493,7 +493,7 @@
         )
     ]
 
-    En cada radio de xilema, en la zona más interna, se haya el *metaxilema*, con células más diferenciadas, mientras que hacia afuera se haya el *protoxilema* con células menos desarrolladas. De esta forma, las células más viejas están hacia afuera, y las más nuevas hacia adentro, concluyendo que el *xilema tiene desarrollo exarco* o centrípeto.
+    En cada radio de xilema, en la zona más interna, se haya el *metaxilema*, con células menos desarrolladas, mientras que hacia afuera se haya el *protoxilema* con células más desarrolladas (diferenciadas). De esta forma, las células más viejas están hacia afuera, y las más nuevas hacia adentro, concluyendo que el *xilema tiene desarrollo exarco* o centrípeto.
 
     #obsbox()[
         Las raíces con más de 5 arcos o radios de xilema son características de las monocotiledóneas, y se denominan poliarcas.
