@@ -619,17 +619,36 @@
 
     Los megáfilos probablemente se originaron de una modificación de un grupo de ramas.
 
-    == Desarrollo de la hoja
+    == Formación de la hoja
 
     === Iniciación
 
-    Ocurre en los costados del ápice del meristema apical, con divisiones anticlinales de células de la túnica, y divisiones periclinales del grupo de células del corpus.
+
+    El proceso de formación de las hojas inicia con la *formación de una protuberancia en un flanco del meristema apical caulinar*, aportando el primer indicio de que aparecerá una nueva hoja. La protuberancia se forma gracias a divisiones anticlinales de células de la túnica, y divisiones periclinales del grupo de células del corpus.
 
     === Desarrollo del eje foliar
 
-    Este precede al desarrollo de la lámina. El primordio foliar forma un cono con la *cara adaxial (superior) aplastada,* mientras que el el ápice deja pronto de dividirse y sus células maduran. A partir de entonces, el aumento en longitud de la hoja se debe a elongaciones y divisiones de células distantes del ápice (*crecimiento intercalar*). Finalmente, existe un aumento en longitud del eje acompañado de un aumento en anchura (debido al *meristema marginal*)
+    Conforme el meristema apical crece, alejándose de esta protuberancia, esta última *se alarga hasta que se forma un primordio foliar plano.* Luego, el ápice dejará de dividirse y sus células madurarán. A partir de entonces, el aumento en longitud de la hoja se debe a elongaciones y divisiones de células distantes del ápice (*crecimiento intercalar*).
+
+    === Desarrollo de la lámina o limbo de la hoja
+
+    Como se mencionó, el primordio foliar plano se expande mediante división y crecimientos celulares, dando origen a un *peciolo delgado.* Pero, además de lo anterior, también dará origen a un *limbo* (parte plana de la hoja).
+
+    En la región del primordio que dará lugar al limbo, surgirán protuberancias longitudinales de células divisibles que se desarrollarán a cada lado del primordio (estas protuberancias se denominan comúnmente como *meristemas intercalares o marginales*). Si estas protuberancias producen células de forma pareja, el borde del limbo, denominado como *margen,* será liso y uniforme. Por el contrario, si hay varios grados de división celular en diferentes partes de ambos lados, el resultado será un margen foliar desigual.
+
+    #obsbox()[
+        Con frecuencia, los peciolos presentan dos pequeñas laminillas de aspecto foliar llamadas *estípulas,* que están unidas al nudo.
+    ][
+        Algunas hojas, denominadas *sésiles,* carecen de pecíolos y están directamente unidas al tallo. Este tipo de hojas es muy común en las monocotiledóneas, donde la base de la hoja rodea al tallo, formando una _vaina._
+    ]
 
     == Histología de la hoja
+
+    #figure(
+        caption: [Corte transversal de una hoja común. Aunque no esté ilustrado, es importante recordar que *sobre la epidermis hay cutina y tricomas*],
+        placement: bottom,
+        image("../figures/fig_corte_transversal_hoja.svg")
+    )
 
     Dos epidermis forman las hojas: una epidermis superior y una epidermis inferior. La epidermis superior se encuentra en la *cara adaxial* (por lo que también se le llama *epidermis adaxial*), mientras que la epidermis inferior se encuentra en la *cara abaxial* (por lo que también se llama *epidermis abaxial*).
 
@@ -641,22 +660,28 @@
 
     Recordemos, además, que en el interior de la hoja está, cerca de la zona superior, el *parénquima _empalizado_* (clorénquima), y en la zona inferior está el *parénquima _esponjoso_* (aerénquima). En medio de los parénquimas anteriores pasan los haces vasculares. El xilema pasa cerca de la zona superior, mientras que el floema pasa cerca de la zona inferior, formando la *nervadura*.
 
-    En conjunto, los parénquimas anteriores, junto con la nervadura, forman el *mesófilo,* el cual no incluye el sistema dérmico.
+    #obsbox()[
+        De manera general, el parénquima empalizado corresponde a _una_ sola capa de células. Sin embargo, pueden darse situaciones en las que hay más de una capa, con el fin de proteger mejor a la hoja frente a los rayos del Sol.
+    ][
+        La nervadura da sostén a la hoja, y, a veces, está envuelta por *células envolventes del haz* para incrementar la fuerza y la protección.
+    ]
+
+    La nervadura, como es lógico, se encuentra conectada al tejido vascular del tallo, en el cual hay dos o más haces vasculares que "lo abandonan" para "irse" a la hoja. Estos haces se denominan *rastros foliares,* y su nombre cambia al estar, finalmente, en el limbo, llamándose *nervios foliares.* Últimamente, los nervios foliares poseen dos distribuciones típicas en las hojas: como *nervadura reticulada,* o como *nervadura paralela* (o _estriada_).
+
+    Por otro lado, el parénquima empalizado y el parénquima esponjoso, junto con la nervadura, forman el *mesófilo,* el cual no incluye el sistema dérmico.
 
     En este contexto, si la hoja posee ambas zonas de su mesófilo con parénquimas distintos (una parte con clorénquima y otra con aerénquima), se denomina *bifacial.* Si, por otro lado, posee las mismas estructuras a ambos lados, se denomina *equifacial.*
 
-    #figure(
-        caption: [Corte transversal de una hoja común. Aunque no esté ilustrado, es importante recordar que *sobre la epidermis hay cutina y tricomas*],
-        placement: top,
-        image("../figures/fig_corte_transversal_hoja.svg", height: 8cm)
-    )
+    También, generalmente en vegetales donde el limbo es vertical, existen situaciones donde el mesófilo posee parénquima empalizado en ambas caras, y, en medio de ellos, aparece (o no) un parénquima esponjoso.
 
     #obsbox()[
+        La mayor parte del proceso fotosintético se produce en el parénquima empalizado.
+    ][
         La epidermis de la hoja _suele_ ser monoestratificada. Si tiene más de una capa, diremos que es pluriestratificada.
     ]
 
     Finalmente, es importante recordar que sobre la epidermis de la hoja hay una capa de cutina que permite evitar la pérdida de agua de las hojas.
 
-    // Faltó ver la morfología de las hojas
+    == Morfología de la hoja
 
 ]
