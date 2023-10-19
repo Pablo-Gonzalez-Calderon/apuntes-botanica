@@ -540,6 +540,10 @@
 
     Existen dos sistemas radiculares o radicales, los cuales se diferencian por la forma de crecimiento de las raíces: el *axonomorfo alorrizo* y el *fibroso homorrizo.* Ambos sistemas pueden entenderse como dos "estrategias" diferentes para obtener agua.
 
+    #obsbox()[
+        Los vegetales que se dan en ambientes más secos y desérticos se conocen con el nombre de *xerófitos* (_xeros_ "seco" --- _phyton_ "vegetal")
+    ]
+
     === Axomorfo alorrizo (o primario)
 
     #enum(
@@ -683,5 +687,36 @@
     Finalmente, es importante recordar que sobre la epidermis de la hoja hay una capa de cutina que permite evitar la pérdida de agua de las hojas.
 
     == Morfología de la hoja
+
+    La forma, tamaño y disposición de las hojas en todas las plantas responde siempre a causas medioambientales. Las diversas formas y estructuras que poseen las hojas están _determinadas genéticamente,_ reflejando las características que les han permitido a determinadas plantas sobrevivir en diferentes medios.
+
+    Existen varios criterios para poder clasificar morfológicamente: la forma de su base, la forma de su lámina, la forma de su ápice, la forma de su margen, entre otros.
+
+    === Tipos de hojas según la forma del limbo
+
+    Según la forma y desarrollo del limbo foliar, las hojas pueden clasificarse en *hojas simples* y *hojas compuestas.*
+    + *Hojas simples:* Consisten en un limbo con el margen entero o, en su defecto, más o menos dividido en lóbulos o dientes.
+    + *Hojas compuestas:* Consisten en hojas donde el limbo o lámina foliar queda dividido en partes, denominadas *foliolos,* los cuales están unidos a un peciolo más alargado denominado *raquis.* Los foliolos parecen hojas verdaderas, pero no lo son, pues _no poseen yemas en sus axilas._
+
+    ==== Tipos de hojas simples según la forma de su limbo
+
+    Existen diversas formas en las que el limbo o lámina foliar puede desarrollarse. Las más comunes son *lanceolada* (forma de lanza), *triangular, ovalada, cordada* (en forma de corazón o acorazonada), entre otras.
+
+    ==== Tipos de hojas compuestas según la distribución de los foliolos
+
+    Las hojas compuestas pueden dividirse en dos grupos, dependiendo de cómo se distribuyen los foliolos:
+    + *Hojas palmadas:* Los foliolos se encuentran unidos a un punto común en la punta del pecíolo, desplegándose como una mano abierta.
+    + *Hojas pinnadas:* Los foliolos se distribuyen en dos filas en los lados opuestos del eje, similar a una pluma. Si en la punta la hoja termina en un par opuesto de foliolos se llaman *paripinnadas,* si terminan en un único foliolo, se denominan *imparipinnadas.*
+
+    A veces, los foliolos de una hoja pinnada pueden dividirse, nuevamente, en otros foliolos, formando *hojas bipinnadas.*
+
+    === Tipos de hojas según su margen
+
+    A grandes rasgos, los márgenes foliares pueden clasificarse en:
+    + *Enteros:* Si el margen se extiende de manera lisa, sin interrupciones, desde el peciolo hasta el ápice foliar.
+    + *Sinuado:* Si se forman senos y lóbulos redondeados.
+    + *Aserrados:* Si poseen dientes simples o dobles (*doblemente aserrados*) que se inclinan hacia el ápice de la hoja.
+    + *Dentados:* Si tienen dientes derechos.
+    + *Crenados:* Si tienen dientes redondeados.
 
 ]
