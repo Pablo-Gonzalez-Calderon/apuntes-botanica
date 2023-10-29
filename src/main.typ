@@ -19,4 +19,4 @@
 #clase-10-11
 
 // Octubre
-#clase-12-13
+#clase-12
