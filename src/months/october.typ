@@ -2,8 +2,10 @@
 #import "@preview/showybox:2.0.1": *
 #import "@preview/tablex:0.0.4": *
 
+#let micro = sym.mu + "m"
+
 #let clase-12 = [
-    #new-class(new-page: true, "Crecimiento secundario", "16 de octubre de 2023")
+    #new-class(new-page: true, "Crecimiento secundario I", "16 de octubre de 2023")
 
     Antes de entrar de lleno con el crecimiento secundario, es necesario visualizar la serie de diferencias que existen entre este crecimiento con el crecimiento primario:
 
@@ -203,3 +205,261 @@
     ]
 
 ]
+
+#let clase-13-14 = [
+    #new-class(new-page: true, "Crecimiento secundario II", "23 de octubre de 2023")
+
+    = Elementos celulares generales del xilema secundario en plantas
+
+    Como mencionamos, las células iniciales fusiformes e iniciales radiales originan células derivadas gracias a sus divisiones periclinales, tanto centrípetamente como centrífugamente. En la @tabla-celulas-derivadas-de-iniciales se haya un resumen de las células derivadas que genera cada una.
+
+    #figure(
+        caption: "Células derivadas de los dos tipos de células iniciales del cambium vascular, según hacia dónde se forman.",
+        tablex(
+            header-rows: 1,
+            auto-lines: false,
+            align: left,
+            columns: (120pt, 1fr, 1fr),
+            (), vlinex(start: 1), (), (),
+            [], [*Iniciales fusiformes \ (se ordenan verticalmente)*], [*Iniciales radiales \ (se ordenan transversalmente)*],
+            hlinex(),
+            cellx(fill: silver)[Centrípetamente (*Xilema secundario*)],
+            cellx(fill: silver)[#enum(numbering: "1.", indent: 0pt)[Elementos de vaso o tráquea][Traqueidas][Fibras xilemáticas][Parénquima axial]],
+            cellx(fill: silver)[
+                #enum(numbering: "1.", indent: 0pt)[Parénquima radial (radios vasculares)]
+            ],
+            [Centrífugamente (*Floema secundario*)],
+            {
+                set enum(indent: 0pt)
+                [
+                    + Elemento o miembro de vaso criboso
+                    + Célula anexa y célula albuminosa
+                    + Fibras floemáticas
+                    + Parénquima axial
+                ]
+            },
+            {
+                set enum(indent: 0pt)
+                [
+                    + Parénquima radial (radios vasculares)
+                ]
+            }
+        ),
+        kind: table
+    )<tabla-celulas-derivadas-de-iniciales>
+
+    Ahora, procederemos a caracterizar cada una de estas células, pero solamente poniendo especial atención en las que componen el xilema secundario.
+
+    == Elemento de vaso (o elementos de tráqueas)
+
+    #grid(
+        columns: (1fr, .9fr),
+        column-gutter: 11pt,
+        [
+            + Son células muertas.
+            + Poseen pared secundaria lignificada.
+            + Carece de contenido celular.
+            + Presentan *placas de perforación* que corresponden a las paredes transversas (superiores) modificadas.
+            + Las paredes laterales tienen *punteaduras areoladas.*
+            + *Varios elementos de vaso superpuestos forman una tráquea o vaso.*
+            + Se encargan del transporte de *agua y solutos*, principalmente, dando posibilidad de que ocurra la transpiración.
+        ],
+        figure(
+            caption: "Elemento de vaso con placa de perforación simple|",
+            image("../figures/fig_elemento_de_vaso.svg", height: 6cm)
+        )
+    )
+
+    === Placas de perforación
+
+    Las placas de perforación son unos orificios que se hayan en las paredes transversas. Pueden presentarse de dos formas:
+
+    + Como un orificio único (_placa de perforación simple_ ---más común).
+    + Como un conjunto de orificios, formando una especie de "rejilla" (_placa de perforación escaleriforme_ ---más arcaica y menos común).
+
+    === Punteaduras
+
+    Por su parte, las *punteaduras* son perforaciones de las paredes secundarias laterales, permitiendo *comunicaciones laterales* con las células vecinas. Su existencia permite que el flujo de sustancias siga su curso ante situaciones donde se obstruyen las placas de perforación.
+
+    La formación de punteaduras se debe a una interrupción de la fijación de lignina en la pared secundaria, quedando solamente pared primaria y lámina media en cada punteadura.
+
+    Cuando observamos una punteadura, esta puede verse *simple* (si solo se ve una circunferencia uniforme) o *areolada* (si se ve una circunferencia engrosada, debido a una fijación irregular de lignina alrededor de las punteaduras). Véase la @punteaduras para más detalles.
+
+    #figure(
+        caption: "Tipos de punteaduras: simple y areolada; vistas desde el plano lateral y frontal.",
+        image("../figures/fig_punteaduras.svg", height: 9cm),
+        placement: bottom
+    )<punteaduras>
+
+    == Traqueidas
+
+    + Son células muertas.
+    + Posee pared secundaria lignificada.
+    + Se encargan del transporte de agua y solutos.
+    + Termina en punta.
+    + No poseen placas de perforación.
+    + Poseen *punteaduras areoladas*, siendo esta la única forma de comunicación entre traqueidas.
+    + Es más alargada que un elemento de vaso.
+    + No posee contenido celular.
+
+    #obsbox()[
+        Las tráqueas son un _conjunto_ de células, mientras que las traqueidas son solamente _una_ célula.
+    ]
+
+    == Fibras xilemáticas
+
+    + Son células muertas.
+    + No poseen contenido celular.
+    + Terminan en punta.
+    + *Todas sus punteaduras son simples.*
+    + Su función es mecánica, dándole soporte a la planta.
+    + No poseen placa de perforación.
+
+    == Parénquima axial
+
+    + Está compuesto por células vivas.
+    + No poseen pared secundaria.
+    + Se forma a partir de una célula inicial fusiforme que se divide periclinalmente dando origen a una célula derivada que, posteriormente, se dividirá transversalmente para originar un conjunto de células que se ordenan verticalmente, conformando el parénquima axial.
+    + Su función principal es almacenar agua. A veces puede almacenar otras sustancias, como cristales, taninos, etc.
+    + En un plano transversal se puede observar difuso o puede tener una *distribución apotraqueal* (no relacionado con los vasos; separados de ellos) o una *distribución paratraqueal* (relacionado con los vasos; en conjunto con ellos).
+
+    == Parénquima radial (radios vasculares)
+
+    + Se origina de divisiones periclinales de las células iniciales radiales.
+    + Son células parenquimáticas vivas.
+    + Reservan y transportan sustancias en sentido transversal (radial) a través del xilema secundario.
+
+    Dependiendo de la cantidad de células que lo conformen a lo ancho, se puede denominar como *uniseriado, biseriado* o *multiseriado.* Por su parte, a lo largo (en longitud) se puede describir dando unidades de medida en micrones (#micro). Finalmente, a lo alto, se puede medir en micrones igualmente, o en número de células, según se desee.
+
+    Para medir correctamente la anchura (con certeza), esta debe medirse en el plano longitudinal tangencial. Para la longitud, en el plano transversal (aunque a veces puede usarse el plano longitudinal radial). Y, finalmente, para la altura, en el plano longitudinal tangencial.
+
+    #obsbox()[
+        La anchura del radio se toma siempre en el centro vertical de este
+    ]
+
+    #figure(
+        caption: [Ejemplo ilustrativo de una sección de parénquima radial cortado a la mitad en su plano transversal. En este caso, se trata de un parénquima radial *biseriado* (hay dos células en su ancho radial), y con un largo de 1 #micro. En caso de tener la medida en altura de este corte, el doble de aquella medida constituiría la altura teórica del parénquima radial completo.],
+        image("../figures/fig_parenquima_radial.svg")
+    )
+
+
+    = Elementos celulares del xilema secundario en las Coníferas
+
+    Un grupo de plantas muy importante en el estudio del xilema secundario son las Coníferas, pues poseen cualidades "atípicas" a las estudiadas previamente para los xilemas de plantas en general.
+
+    #grid(
+        columns: (1fr, 1.2fr),
+        column-gutter: 11pt,
+        [
+            En primer lugar, encontramos que *las Coníferas no poseen tráqueas, fibras xilemáticas, ni parénquima axial* por lo que son más blandas que otras plantas que sí las poseen. No obstante, sí poseen *traqueidas y sus radios parenquimáticos son _uniseriados_* con una altura variable.
+
+            En _algunas_ Coníferas, aparecen, además, un grupo de células parenquimáticas (células vivas con pared primaria) que rodean un espacio "vacío" del xilema. Este grupo de células se denominan *células epiteliales*, y conforman los *vasos resiníferos.* Aquí, la función de las células epiteliales es secretar (no producir) resina hacia los vasos resiníferos.
+        ],
+        figure(
+            caption: "Representación de un vaso resinífero. La flecha rojiza representa la dirección de formación del vaso; es decir, el origen esquizogénico",
+            image("../figures/fig_vaso_resinifero.svg")
+        )
+    )
+
+    Alrededor de las células epiteliales, se hayan las *células de la vaina,* las cuales son las encargadas de sintetizar la resina que recibirán las células epiteliales y que, posteriormente, circularán por los vasos resiníferos.
+
+    El vaso resinífero se origina, inicialmente, de la _separación_ de las células epiteliales y de la vaina, las cuales dejan una abertura o hueco en medio de ellas, dando origen al vaso. Este tipo de origen se denomina *esquizogénico.*
+
+    #obsbox()[
+        Producir resina #sym.eq.not Secretar resina
+    ]
+
+    = Cambium vascular (continuación)
+
+
+    Ahora continuaremos con el estudio del crecimiento secundario. Ya vimos cómo este se producía en tallos para formar madera, pero todavía nos falta ver cómo actúa el cambium vascular en las raíces (porque sí, también hay crecimiento secundario en las raíces).
+
+    Antes de comenzar con el desarrollo del cambium vascular en raíces, queda por mencionar un aspecto relacionado a la actividad estacional que presenta el cambium: al inicio de la época de crecimiento, la cantidad de células a lo largo del cambium vascular es mayor que en la época de inactividad, donde usualmente solo hay una hilera de estas células. Cuando el cambium está activo, diremos que se puede observar notablemente la *zona cambial,* es decir, donde hay cambium (células rectangulares con paredes radiales gruesas y tangenciales delgadas ---en un corte transversal).
+
+    #box()[
+        == Cambium vascular en las raíces
+
+        #grid(
+            columns: (1fr, 1fr),
+            column-gutter: 11pt,
+            [
+
+                En las raíces, el crecimiento secundario parte con la *desdiferenciación de la parte interna del metafloema*, creando un tejido meristemático con forma de semicírculos, como se observa en la @cambium-vascular-raices.
+
+                Ahora, es necesario formar un "círculo meristemático" para poder iniciar el crecimiento secundario propiamente tal. Para ello, en las regiones donde no haya meristema proveniente del metafloema, se utilizará el meristema del periciclo para "cerrar" la circunferencia.
+
+                De esta manera, el cambium vascular es la mezcla del meristema creado en el metafloema, más el meristema del periciclo que se haya en las zonas del protoxilema.
+
+                *En el cambium de las raíces también existirán células iniciales fusiformes y células iniciales radiales,* y se generará xilema secundario de forma centrípeta y floema secundario de forma centrífuga.
+            ],
+            [
+                #figure(
+                    caption: "Cambium vascular en una raíz, formado por metafloema desdiferenciado en la zona interna, y trazas del periciclo en las zonas donde no hay floema.",
+                    image("../figures/fig_cambium_vascular_raices.svg")
+                )<cambium-vascular-raices>
+            ]
+        )
+
+        De esta manera, la única diferencia con el cambium vascular de los tallos es el origen.
+    ]
+
+    === Funciones del periciclo (actualizadas)
+
+    + Participa en el origen del cambium vascular en raíces
+    + Origina raíces laterales (tanto en el sistema radical axonomorfo alorrizo como en el sistema radical homorrizo fibroso).
+
+        La generación de raíces laterales se produce debido a divisiones periclinales y anticlinales del periciclo. La ruptura y extensión de la raíz en los momentos iniciales será gracias a la elongación celular de las células derivadas.
+    + Forma felógeno en raíces con crecimiento secundario.
+
+    = Cambium suberoso o felógeno (corteza)
+
+    Una vez estudiado cómo se forma la madera, es momento de adentrarse en la formación de la corteza. En botánica, a la corteza la denominamos *peridermis*, la cual es la suma de *felema, felógeno* y  *felodermis,* en el orden indicado por la @partes-de-la-peridermis
+
+    Entre distintas especies de plantas pueden haber muchas diferencias en sus cortezas, lo cual se debe a la variabilidad de desarrollo y características del cambium.
+
+    #figure(
+        caption: [Disposición de las capas de la peridermis, desde el interior del tallo (izquierda) hacia el exterior (derecha). Es importante destacar que la peridermis _no_ tiene contacto directo con el exterior.],
+        figure-box(align(center)[
+            *Peridermis*
+
+            (Interior) #h(1fr) Felodermis #sym.arrow.long Felógeno #sym.arrow.long Felema #h(1fr) Epidermis #sym.arrow.long (Exterior)
+        ])
+    )<partes-de-la-peridermis>
+
+    == Felógeno
+
+    El cambium suberoso o felógeno es un anillo más externo que el del cambium vascular, siendo formado por las células vivas ya sea del floema, el clorénquima, el parénquima cortical o la epidermis (puede provenir de la desdiferenciación de diversos tejidos). *No participan células meristemáticas; solamente tejidos adultos.*
+
+    El felógeno se caracteriza por:
+
+    + Ser un meristema secundario.
+    + Solo estar formado por células iniciales aplanadas tangencialmente (visto desde un plano transversal).
+    + Divisiones anticlinales originan nuevas células iniciales.
+    + Divisiones periclinales originan dos tipos celulares:
+        + *Centrífugamente forma felema.*
+        + *Centrípetamente forma felodermis.*
+
+    == Felema
+
+    El felema corresponde a capas de *células muertas* que tienen las *paredes con suberina.* Por ello, se encargan de proteger a los tallos con crecimiento secundario, pudiendo formar varias capaz y, con ello, determinar las diversas formas que poseen las cortezas de las plantas.
+
+    Como el felema aísla el interior del exterior de la planta, cada cierto tramo se forman aberturas denominadas *lenticelas,* las cuales permiten el intercambio gaseoso con el exterior. Las lenticelas son, en esencia, un canal relleno de células _vivas_ formadas en zonas de alta actividad cambial, y que han roto el felema gracias a que han hecho presión sobre él debido a su gran cantidad.
+
+    == Felodermis
+
+    La felodermis se caracteriza por:
+    + Ser células parenquimáticas vivas.
+    + Poseer pared primaria celulósica.
+    + Formar parte del parénquima cortical en el futuro.
+
+    == Ritidoma
+
+    En algunos casos no se forma un solo cambium suberoso, sino que se va formando cada año un nuevo cambium cada vez más interno, formando capas de corteza más y más gruesas. Estas capaz de tejidos muertos se denomina *ritidona,* y puede contener tanto felema como felógeno muerto o felodermis muerta.
+
+    = Cambium suberoso en las raíces
+
+    En raíces, el cambium suberoso se forma muy adentro, en el periciclo, causando que todas las capas externas a él se eliminen, incluido parénquima cortical y rizodermis.
+
+    Sin embargo, *en Monocotiledóneas no se forma felógeno,* porque no tienen crecimiento secundario. Sin embargo, para proteger la raíz se forma la *exodermis,* la cual es similar a un felema; es decir, que está constituida por células muertas con paredes suberificadas. Su diferencia con el felema es que la exodermis se forma a partir de células subrizodérmicas que se modifican.
+]
+
