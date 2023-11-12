@@ -463,3 +463,303 @@
     Sin embargo, *en Monocotiledóneas no se forma felógeno,* porque no tienen crecimiento secundario. Sin embargo, para proteger la raíz se forma la *exodermis,* la cual es similar a un felema; es decir, que está constituida por células muertas con paredes suberificadas. Su diferencia con el felema es que la exodermis se forma a partir de células subrizodérmicas que se modifican.
 ]
 
+#let clase-15-16 = [
+    #new-class(new-page: true, "Reproducción en plantas I", "30 de octubre de 2023")
+
+    Ahora, llegó el momento en el que vamos a estudiar cómo se reproducen las plantas, las características de las flores y las características de las semillas.
+
+    = Tipos de reproducción en plantas
+
+    Recordemos que la reproducción es fundamental para los seres vivos, pues les permite perpetuar la especia a lo largo del tiempo. En este contexto, se dan dos tipos de reproducción: la *reproducción sexual* (hay participación de gametos de dos individuos) y la *reproducción asexual* (no hay participación de gametos, hay un solo individuo).
+
+    En las plantas que se reproducen asexualmente, una planta madre dará origen a clones. Esta reproducción puede clasificarse como "más rápida" que la reproducción sexual, por lo que le ha sido útil a los seres humanos en el proceso de cultivar plantas de manera más rápida para obtener alimento, valga la redundancia, más rápidamente.
+
+    #examplebox()[
+        Ejemplos de plantas con este tipo de reproducción son aquellas que poseen, en su estructura, rizomas, estolones, tubérculos, etcétera.
+    ]
+
+    Por su parte, en la reproducción sexual hay tanto plantas *Antófitas o Angiospermas* (plantas con flores que darán frutos con semillas) como plantas *Coniferófitas* (Coníferas que producen *estróbilos* que tendrán semillas). En conjunto, ambos grupos serán *espermatófitas,* o plantas que producen semillas.
+
+    #figure(
+        caption: "Tipos de plantas con reproducción sexual.",
+        figure-box(text(size: 1.25em)[
+            $ "Reproducción\nsexual"& cases(limits("Espermatófitas")_"(plantas que producen semillas)" cases("Antófitas o Angiospermas" limits(arrow.long)_"pueden\nser" "Unisexuales o \n Hermafroditas", "Coniferófitas" limits(arrow.long)^"reprod.\nvía" "Estróbilos" limits(arrow.long)^"son" "Unisexuales"), #v(1em), limits("No espermatófitas")_"(plantas que no producen semillas)" cases("Helechos" limits(arrow.long)_"poseen\nlos" "Soros", "Musgos" limits(arrow.long)_"poseen\nlas" "Cápsulas esporangiales")) $
+        ]),
+        placement: bottom
+    )
+
+    #obsbox()[
+        De esta forma se puede inferir que las semillas provienen evolutivamente antes que la formación de flores y frutos.
+    ]
+
+    Adicionalmente, en la reproducción sexual también encontraremos otro grupo denominado *no espermatófitas,* donde se encuentran los *helechos* y los *musgos.* Aquí, el embrión no se encuentra en latencia, sino que se desarrolla inmediatamente
+
+    #obsbox()[
+        La semilla es una estructura que tiene un embrión latente que se va a desarrollar cuando las condiciones sean las adecuadas.
+    ]
+
+    Como se mencionó, en las espermatófitas, la estructura característica de las Angiospermas son las flores, las cuales pueden presentar estructuras masculinas (*estambre*) y/o femeninas (*pistilos*). Si tienen ambas, se denominan *hermafroditas,* si tienen solo una se denominan *unisexuales.*
+
+    Por su parte, como se mencionó, en las Coniferófitas, están los *estróbilos*, los cuales *siempre son unisexuales.*
+
+    Luego, en las no espermatófitas, como los helechos, hay estructuras como los *soros,* los cuales se ubican debajo de las *frondas* u hojas de la planta. Y, finalmente, en los musgos, se encuentran las *cápsulas esporangiales.*
+
+    = Reproducción asexual
+
+    #figure-box()[
+        $ "Progenitores" limits(arrow.long)^"Generan una" "Unidad reproductiva" limits(arrow.long)^"Genera la" "Progenie" $
+    ]
+
+    Siempre habrán 3 componentes:
+    + Los progenitores
+    + La estructura de la que aparezca la progenie, denominada *unidad reproductiva*
+    + La progenie
+
+    == Vegetativa
+
+    En este tipo de reproducción asexual, la característica principal que la diferencia de sus homólogas es que aquí *la unidad de reproducción es pluricelular,* pudiendo ser una hoja, un tallo, un tubérculo, etc.
+
+    #examplebox()[
+        Un ejemplo claro de este tipo de reproducción asexual son las frutillas, las cuales se pueden reproducir mediante sus estolones, estructuras pluricelulares que le permiten generar clones de la planta madre.
+    ]
+
+    == Esporulación
+
+    En estos casos, el progenitor (esporofito) produce *esporas* (unidad reproductiva), las cuales se desarrollarán dando origen a la progenie.
+
+    #figure(
+        caption: "Proceso de creación de esporas a partir de los esporofitos progenitores.",
+        align(
+            center,
+            [
+                #grid(
+                    columns: (100pt, 45pt, 150pt, 50pt, 120pt),
+                    box(stroke: 1pt, inset: 1em, align(center)[
+                        *Progenitor*
+
+                        Diploide (2n)\
+                        Es un esporofito
+                    ]),
+                    align(center+horizon, $ limits(arrow.long)^"posee" $),
+                    box(stroke: 1pt, inset: 1em, align(center)[
+                        *Esporangios*
+
+                        Contienen a los _esporocitos,_\
+                        células que hacen *meiosis*.
+                    ]),
+                    align(horizon, $ limits(arrow.long)^"forman y"_"contienen" $),
+                    box(stroke: 1pt, inset: 1em, align(center)[
+                        *Esporas*
+
+                        4 por c/esporocito\
+                        Son haploides (n)
+                    ]),
+                )
+
+                #box(inset: 1em, width: 80%, fill: luma(230))[
+                    $ "Esporocito (2n)" arrow.long "2 células hijas (2n)" arrow.long "4 Esporas (n)" $
+
+                    La progenie será, por tanto, _haploide y unicelular._ Además, no será idéntica al progenitor y va a constituir un gametofito.
+                ]
+            ]
+        ),
+        placement: bottom
+    )
+
+    De esta manera, para llevar a cabo la reproducción, el progenitor deberá crear *unidades haploides unicelulares* (las esporas). Y, para conseguir aquello ---unidades haploides---, las células generativas deberán sufrir un proceso de *meiosis.*
+
+    En este caso, la progenie terminará también siendo haploide, poseyendo, por tanto, distinto material genético al de los progenitores. *Este tipo de reproducción sexual se da en todas las plantas.*
+
+    En el helecho, donde se producen esporas, la progenie se obtiene por reproducción asexual, mientras que el progenitor provino de la reproducción sexual. Por lo tanto *la progenie es una etapa intermedia de la vida del helecho.* Más adelante veremos que esto se relaciona con lo que denominamos generación alternante.
+
+    De esta manera, es evidente que la progenie será vital para, por ejemplo, un helecho, pues, como el helecho no produce gametos, ella será la encargada de producir los gametos. Entonces, la progenie generada por la esporulación corresponderá a *gametofitos.* Además, como el individuo (progenie) es haploide (n), tendrá que producir los gametos sí o sí por mitosis, en los *gametangios* (análogos a los esporangios).
+
+    Finalmente, como el gametofito es igual en todos los casos, será *hermafrodita,* teniendo, por tanto, gametangios que producen gametos masculinos (*anteridio*) y gametangios que producen gametos femeninos (*arquegonio*). El gameto masculino se denomina *espermio* o *espermatocito*, mientras que el gameto femenino se llama *ovocito, óvulo* u  *ovocélula.*
+
+    El resto del proceso: fecundación y formación de los esporofitos, es bastante similar con su equivalente de la reproducción sexual.
+
+    = Reproducción sexual
+
+    Si bien una planta puede reproducirse sexualmente consigo misma cuando es hermafrodita (*autogamia*), las plantas generalmente propiciarán la reproducción con otras de su especie (*alogamia*).
+
+    Ahora, los progenitores generarán unidades de reproducción llamadas simplemente como gametos, los cuales serán producidos por los anteridios y los arquegonios. *El gameto femenino siempre queda unido al reproductor.*
+
+    Cuando los gametos se unan, formarán el cigoto, el cual es diploide, y, más tarde, formará un embrión. Este embrión podrá desarrollarse inmediatamente (no espermatófitas) o quedar en latencia dentro de un fruto (espermatófitas).
+
+    = Generación alternante
+
+    Una parte importante de las vidas de casi la totalidad de las plantas consiste en ser esporofitos diploides, produciendo esporas haploides por meiosis que generan una progenie de gametofitos haploides. Luego de esta fase, los gametofitos producen gametos por mitosis, los cuales generarán un cigoto, que dará origen a un embrión, repitiendo el ciclo. Esta situación cíclica se puede observar en la @generacion-alternante
+
+    En los helechos, Coníferas y Antófitas la etapa de ser esporofito es más extensa que las demás fases. El diagrama de la @generacion-alternante-en-coniferas representa una dominancia de la época esporófita de la planta, estando las demás etapas en menor medida durante el ciclo de vida de la planta. La _excepción_ a esta dominancia ocurre en las briófitas (musgos, hepáticas, antoceros, etc.), donde la etapa gametófila es la dominante.
+
+    #obsbox()[
+        La mayoría de las plantas producen esporas en primavera.
+    ][
+        Todas las plantas son embriófitas, pues todas generan embrión
+    ]
+
+    #figure(
+        placement: top,
+        align(center, grid(
+            columns: (100pt, 45pt, 150pt, 50pt, 120pt),
+            row-gutter: 10pt,
+            box(stroke: 1pt, inset: 1em, align(center)[
+                *Esporofitos*
+
+                Diploides (2n)\
+                Son la planta
+            ]),
+            align(center+horizon, $ limits(arrow.long)^"contiene" $),
+            box(stroke: 1pt, inset: 1em, align(center)[
+                *Esporangios*
+
+                Contienen a los _esporocitos,_ células que hacen *meiosis*.
+            ]),
+            align(horizon, $ limits(arrow.long)^"forman y"_"contienen" $),
+            box(stroke: 1pt, inset: 1em, align(center)[
+                *Esporas*
+
+                4 por c/esporocito\
+                Son haploides (n)
+            ]),
+            [$ limits(arrow.t)_"forman gametos que \nfecundan y forman" $],[],[],[],$ limits(arrow.b)^"constituyen" $,
+            align(horizon, box(stroke: 1pt, inset: 1em, align(center)[
+                *Anteridio (M)*
+
+                *Arquegonio (F)*
+            ])),
+            align(horizon, $ limits(arrow.long.l)^"son dos" $),
+            box(stroke: 1pt, inset: 1em, align(center)[
+                *Gametangios*
+
+                En ellos ocurre mitosis para formar los gametos (n).
+            ]), align(horizon, $ limits(arrow.long.l)^"contiene" $),
+            box(stroke: 1pt, inset: 1em, align(center)[
+                *Gametofitos*
+
+                Haploides (n)\
+                Son hermafroditas
+            ]),
+            )
+        ),
+        caption: "Diagrama que representa los participantes de la generación alternante."
+    )<generacion-alternante>
+
+
+    #figure(
+        caption: "Diagrama a escala temporal de las etapas de la generación alternante en helechos, Coníferas y Antófitas.",
+        image("../figures/fig_generacion_alterna.svg")
+    )<generacion-alternante-en-coniferas>
+
+    == Generación alternante en briófitas (musgos)
+
+    #grid(
+        columns: (1.3fr, 1fr),
+        column-gutter: 11pt,
+        [
+            En los musgos, las partes que sujetan al sustrato se llaman *rizoides,* el eje principal se llama *caulidio,* y las estructuras con forma de hoja se llaman *filodios.* El caulidio se extiende como un *filamento,* en cuya punta se haya la *cápsula esporangial.*
+
+            La zona inferior compuesta por el rizoide, el caulidio y los filodios corresponde a una zona gametófita, siendo producto de una espora y con la característica de ser *autónoma,* pues produce su propio alimento.
+
+            Por su parte, la zona superior compuesta por el filamento y la cápsula esporangial corresponde a una esporofita, la cual es dependiente del gametofito para vivir. Por ello, analizaremos la reproducción alternada de las briófitas con el proceso del gametofito primero...
+
+            Antes de comenzar la formación de un cigoto, el gametofito va a *desarrollar los gametangios en la zona apical.* En el gametangio femenino se forma el ovocito, mientras que en el gametangio masculino se forman muchos espermatocitos con flagelo, los cuales se liberan al ambiente.
+
+            Los espermatocitos salen por el canal del anteridio (son móviles) y entran al arquegonio, donde _solo uno_ fecunda al óvulo.
+        ],
+        figure(
+            caption: "Estructura de una briófita, donde se aprecian sus estructuras...",
+            image("../figures/fig_briofita.svg")
+        )
+    )
+
+    #figure(
+        caption: "Ciclo de generación alternante de las briófitas",
+        image("../figures/fig_ciclo_briofita.svg"),
+        placement: bottom
+    )
+
+    Posteriormente, en el arquegonio se comienza a desarrollar el embrión, formándose una estructura filamentosa (el filamento) que terminará en una cápsula esporangial.
+
+    Luego, al interior de la cápsula esporangial, se hallaran numerosos esporocitos, los cuales se dividirán por meiosis para generar esporas haploides, proceso conocido como *esporulación.*
+
+    Finalmente, las esporas caerán al suelo ---se depositan en el sustrato--- y se desarrollarán, dando origen a nuevos gametofitos.
+
+    #obsbox()[
+        Todas las esporas son iguales (*homosporas* o *isosporas*), por lo que generan gametofitos hermafroditas.
+    ]
+
+    == Generación alternante en antófitos
+
+    En las Angiospermas, cuando la planta se reproduce, produce, lógicamente, flores, las cuales son tallos que han sido modificados completamente para cumplir la función reproductiva. Las principales diferencias morfológicas entre un tallo normal y una flor, se encuentran listadas en la @diferencias-flor-tallo. Más detalles de la morfología de la flor serán profundizados posteriormente.
+
+    #figure(
+        caption: "Diferencias entre un tallo normal y una flor (tallo modificado).",
+        table(
+            columns: (.5fr, 1fr, 1fr),
+            [], [*Tallo*], [*Flor*],
+            [*Entrenudos*], [Visibles a simple vista], [Muy estrechos],
+            [*Hojas*], [Nomófilos], [
+                Antófilos (piezas o elementos que forman la flor):
+                #align(left, enum(indent: 0pt)[Sépalos $limits(arrow.long)^"forman"$ Cáliz][Elemento o Pieza $limits(arrow.long)^"forman"$ Verticilo][Pétalos $limits(arrow.long)^"forman"$ Corola][Estambres $limits(arrow.long)^"forman"$ Androceo][Carpelos $limits(arrow.long)^"forman"$ Gineceo])
+
+                #obsbox()[Los carpelos forman también uno o más pistilos]
+            ],
+            [*Función*], [Fotosintética], [Reproductiva]
+        )
+    )<diferencias-flor-tallo>
+
+    === Androceo
+
+    Estructura reproductiva masculina que corresponde a un conjunto de estambres, los cuales están formado por dos partes:
+    + Filamento: Haz vascular por donde va el xilema y el floema, uniéndolo a la flor.
+    + Antera: Estructura modificada donde se van a producir las unidades de reproducción (esporas).
+        - Posee 2 tecas cada una con 2 sacos polínicos.
+        - En total hay 4 sacos polínicos.
+        - Los sacos polínicos son esporangios (producen y almacenan esporas).
+        - Los sacos polínicos contienen esporocitos que sufren meiosis, formando así 4 esporas por cada esporocito.
+        - Para liberar las esporas, lo puede hacer de distintas maneras, ya sea longitudinal, transversal, etcétera.
+
+    #obsbox()[
+        Se producen esporas en las anteras porque son parte de la flor, la cual, a su vez, es parte de la planta a la cual está unida. Y, finalmente, esta planta corresponde a un esporofito, permitiendo concluir que la unidad reproductiva que se produce son esporas.
+    ]
+
+    === Gineceo
+
+    Estructura reproductiva femenina, la cual corresponde a un conjunto de carpelos que forman un pistilo o varios pistilos. Algunas posibles configuraciones de ordenamiento de los carpelos y pistilos se hayan en la @carpelos-pistilos
+
+    #figure(
+        caption: "Distintas configuraciones o formas de ordenarse de los carpelos para formar una determinada cantidad de pistilos.",
+        tablex(
+            width: 100%,
+            align: center+horizon,
+            columns: (1fr, 1fr, 1fr),
+            header-rows: 1,
+            [*N° de carpelos*], [*N° de pistilos*], [*Nombre de la estructura*],
+            [1 carpelo], [1 pistilo], [Monocarpelar \ Unilocular],
+            rowspanx(2)[2 carpelos], [1 pistilos], [Bicarpelar \ Uni o bilocular.], [2 pistilos], [Monocarpelar \ Unilocular],
+            rowspanx(2)[3 carpelos], [1 pistilo], [Tricarpelar \ Uni o trilocular],
+            [3 pistilos], [Monocarpelar \ Unilocular]
+        ),
+        kind: table
+    )<carpelos-pistilos>
+
+    Finalmente, los pistilos están formados por 3 partes
+    + Estigma: Donde llega el polen, parte más externa y superior.
+    + Estilo: Donde crecerá el tubo polínico (cuando llegue el polen al estigma).
+    + Ovario: Parte del fruto.
+        - Pueden haber varias "cámaras" llamadas *lóculos,* donde puede haber uno o muchos *primordios seminales*
+        - En los primordios seminales es en donde se dará origen a una semilla.
+        - El primordio seminal se ubica en la placenta.
+
+    #obsbox()[
+        El número de carpelos _no siempre_ equivale al número de pistilos.
+    ][
+        Los lóculos son los "espacios" que hay dentro de los pistilos.
+    ]
+
+    #figure(
+        caption: [Ilustración con la mayoría de las partes florales mencionadas. Extraído de #link("https://pin.it/7ihnJ46", text(blue, "https://pin.it/7ihnJ46"))],
+        image("../figures/fig_partes_de_la_flor.jpg", height: 7cm)
+    )
+]

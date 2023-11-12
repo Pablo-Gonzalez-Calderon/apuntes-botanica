@@ -3,6 +3,7 @@
 #import "months/august.typ": *
 #import "months/september.typ": *
 #import "months/october.typ": *
+#import "months/november.typ": *
 
 #show: properties.with()
 
@@ -21,3 +22,7 @@
 // Octubre
 #clase-12
 #clase-13-14
+#clase-15-16
+
+// Noviembre
+#clase-17-18
