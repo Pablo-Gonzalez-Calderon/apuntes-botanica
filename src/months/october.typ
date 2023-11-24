@@ -689,7 +689,9 @@
         Todas las esporas son iguales (*homosporas* o *isosporas*), por lo que generan gametofitos hermafroditas.
     ]
 
-    == Generación alternante en antófitos
+    == Generación alternante en Antófitas
+
+    Las Antófitas o Angiospermas son plantas terrestres, árboles y arbustos, herbáceas anuales y perennes. Además, son organismos vasculares (poseen xilema y floema), desarrollando sus flores en los lugares donde se ubican los esporangios. Las semillas que producen se caracterizan por estar protegidas por el ovario desarrollado ---el fruto---, poseyendo un ciclo reproductivo que no precisa de fase acuosa.
 
     En las Angiospermas, cuando la planta se reproduce, produce, lógicamente, flores, las cuales son tallos que han sido modificados completamente para cumplir la función reproductiva. Las principales diferencias morfológicas entre un tallo normal y una flor, se encuentran listadas en la @diferencias-flor-tallo. Más detalles de la morfología de la flor serán profundizados posteriormente.
 
