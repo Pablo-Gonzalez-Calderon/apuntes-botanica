@@ -288,7 +288,7 @@
 
     #figure-box(align(center)[
         #align(center, text(size: 1.2em, weight: 900, "Generación alternada"))
-        Esporofito #sym.arrow Esporas #sym.arrow Gametofitos #sym.arrow Gametos #sym.arrow.dotted #text(red)[Polinización #sym.arrow.dotted Fecundación #sym.arrow Esporofito]
+        Esporofito #sym.arrow Esporas #sym.arrow Gametofitos #sym.arrow Gametos #sym.arrow.dotted #text(red)[Polinización] #sym.arrow.dotted Fecundación #sym.arrow Esporofito
     ])
 
     Una vez formado los microgametofitos, la planta debe ser polinizada para que puedan encontrarse los gametos masculino y femenino para dar lugar a la fecundación y a la formación de un nuevo esporofito.
@@ -345,41 +345,50 @@
 #let clase-19-20 = [
     #new-class(new-page: true, "Reproducción en plantas III", "13 de noviembre de 2023")
 
-    Ya hemos visto la morfología de la flor, la formación de esporas y gametos, y la unión de los cigotos. Ahora, vamos a ahondar más en el proceso previo a la fecundación y posterior a la formación de los gametos: la polinización.
+    Ya hemos visto la morfología de la flor, la formación de esporas y gametos, y la unión de los cigotos. Ahora, vamos a ahondar aún más en el proceso previo a la fecundación y posterior a la formación de los gametos: la polinización.
 
     = Polinización
 
-    Consiste en el mecanismo mediante el cual lo granos de polen "salen" hacia el órgano reproductivo femenino en la flor. La forma más conocida de polinización es el viento, pero también ocurren polinizaciones vía aves o a través del viento. Todas estas formas de polinización determinan las distintas formas en las que las plantas se desarrollan.
+    #figure-box(align(center)[
+        #align(center, text(size: 1.2em, weight: 900, "Generación alternada"))
+        Esporofito #sym.arrow Esporas #sym.arrow Gametofitos #sym.arrow Gametos #sym.arrow.dotted #text(red)[Polinización] #sym.arrow.dotted Fecundación #sym.arrow Esporofito
+    ])
 
-    Para atraer polinizadores, las plantas elaboran una "recompensa": el néctar, una mezcla de agua con azúcar. Esta recompensa se puede producir y entregar de diversas formas, dependiendo de las necesidades de la planta. Finalmente, como tanto la planta como el polinizador se ven beneficiados, ocurre un *mutualismo de polinización.*
+    Consiste en el mecanismo mediante el cual lo granos de polen "salen" hacia el órgano reproductivo femenino en la flor. La forma más conocida de polinización son los insectos, pero también ocurren polinizaciones vía aves o a través del viento. Todas estas formas de polinización determinan las distintas formas en las que las plantas se desarrollan.
+
+    Para atraer polinizadores, las plantas elaboran una "recompensa": el néctar, una mezcla de agua con azúcar. Esta recompensa se puede producir y entregar de diversas formas, dependiendo de las necesidades de la planta. Finalmente, como tanto la planta como el polinizador se ven beneficiados, ocurre los que se denomina como *mutualismo de la polinización.*
 
     #figure-box()[
-        $ "Polinización" arrow.long limits("Fecundación cruzada")_"(alogamia)" $
+        $ "Polinización" limits(arrow.long)^"Permite"_"la" limits("Fecundación cruzada")_"(alogamia)" $
     ]
 
     == Polinización anemófila
 
-    Las plantas que se polinizan por viento, poseen flores pequeñas y no son tan llamativas (poseen pocos colores). Sus anteras tienen gran desarrollo (filamento largo y abundante producción de polen), y sus estigmas tienen una gran superficie para poder captar el polen que llegue (viene no-dirigido).
-
-    + Flores pequeñas
+    + Flores pequeñas y poco llamativas
     + Corola poco desarrollada o ausente
     + Son monoicos o dioicos
     + Ausencia de colores vistosos
-    + Estambres muy desarrollados
+    + Estambres muy desarrollados (filamento largo y abundante producción de polen)
+    + Estigmas con gran superficie para captar el polen que llegue (viene no-dirigido)
     + Ausencia de nectarios
 
     == Polinización ornitófila
 
-    +  Flores tubulares
+    +  Las flores son tubulares
     +  Flores de tamaño medio a grande
     +  Generalmente con corolas de color rojo (las aves se atraen por la vista, y los insectos por el olor).
     +  Con mucha secreción de néctar.
 
     == Polinización entomófila
 
-    La polinización por insectos variará dependiendo del tipo de insecto que se esté intentando atraer. Pueden haber adaptaciones que limitan la polinización a ciertos insectos, como las mariposas; adaptaciones morfológicas que favorecen la adhesión del polen a insectos como abejorros, etc.
+    La polinización por insectos variará dependiendo del tipo de insecto que se esté intentando atraer. Por ejemplo, pueden haber adaptaciones que limitan la polinización a ciertos insectos, como las mariposas; o adaptaciones morfológicas que favorecen la adhesión del polen a insectos, como abejorros.
 
-    = Fecundación
+    = Fecundación y germinación
+
+    #figure-box(align(center)[
+        #align(center, text(size: 1.2em, weight: 900, "Generación alternada"))
+        Esporofito #sym.arrow Esporas #sym.arrow Gametofitos #sym.arrow Gametos #sym.arrow.dotted Polinización #sym.arrow.dotted #text(red)[Fecundación #sym.arrow Esporofito]
+    ])
 
     Una vez que llega el grano de polen al estigma comienza la *germinación,* la cual corresponde a la *alargación y desarrollo del tubo polínico* para depositar el espermio en el óvulo, lo cual se conoce como *sifonogamia.* Recordemos que para fecundar al óvulo, el tubo polínico deberá pasar entre los tegumentos hasta el óvulo, el cual se haya entre las sinergidas.
 
@@ -393,7 +402,10 @@
 
     Luego de la fecundación, ocurrirán tanto el desarrollo de la semilla como el desarrollo del fruto. Donde estaba el megagametofito ahora estará tanto el embrión como el endospermo (rodeándolo). Y toda esta estructura quedará cubierta por la *testa*, la cual tendrá una cicatriz en donde estaba unida a la placenta ---es decir, el *funículo*---, denominada *hilo.*
 
-    // Imagen
+    #figure(
+        caption: "Primordio seminal luego de la fecundación. Ahora es una semilla.",
+        image("../figures/fig_fecundacion.svg", height: 5.5cm)
+    )
 
     #obsbox()[
         El megagametofito no se transformó en nada. Lo que sí se transformó fueron los tegumentos (no cambió su material genético).
@@ -403,31 +415,43 @@
 
     En la semilla, *el micropilo seguirá presente,* pero ahora su función no será permitir la fecundación, sino que permitir que salga la radícula hacia el exterior.
 
-    === Cariopsis del maíz
+    == Cariopsis del maíz
 
     La cariopsis es un fruto y semilla a la vez, pues la pared del fruto queda adherida a la semilla. Por ello, se forma una estructura denominada *complejo pericarpio-testa,* donde la pared del fruto queda unida a la pared de la semilla.
 
-    === Gramíneas
+    #grid(
+        columns: (1fr, 1fr),
+        [
+            == Gramíneas
 
-    El maíz es una *Gramínea,* las cuales se caracterizan por poseer una cariopsis con una semilla unida al fruto (testa + pericarpio).
+            El maíz es una *Gramínea,* las cuales se caracterizan por poseer una cariopsis, es decir, ser una semilla unida al fruto (testa + pericarpio).
 
-    Las gramíneas son *monocotiledóneas* por lo que poseen, lógicamente, un solo cotiledón o *escutelo* en la semilla, el cual está unido a un *eje embrionario,* cuya parte superior (*plúmula*) formará el tallo, y cuya parte inferior (*radícola*) formará la raíz.
+            Las gramíneas son *monocotiledóneas* por lo que poseen, lógicamente, un solo cotiledón o *escutelo* en la semilla, el cual está unido a un *eje embrionario,* cuya parte superior (*plúmula*) formará el tallo, y cuya parte inferior (*radícola*) formará la raíz.
 
-    Cubriendo al eje embrionario en la parte superior se encuentra un "capuchón" llamado *coleoptilo,* el cual protegerá al brote que saldrá de la tierra Por su parte, cubriendo el eje embrionario en la parte inferior se encuentra otro "capuchón" que se abre antes, llamado *coleorriza.*
+            Cubriendo al eje embrionario en la parte superior se encuentra un "capuchón" llamado *coleoptilo,* el cual protegerá al brote que saldrá de la tierra Por su parte, cubriendo el eje embrionario en la parte inferior se encuentra otro "capuchón" que se abre antes, llamado *coleorriza.*
+        ],
+        figure(
+            caption: "Estructuras de las gramíneas",
+            image("../figures/fig_graminea.svg", height: 7cm)
+        )
+    )
 
-    // Imagen de la anatomía de las gramíneas
+    #grid(
+        columns: (1.5fr, 1fr),
+        [
+            = Morfología interna de la semilla: El Embrión
 
-    = Morfología interna de la semilla: El Embrión
+            El embrión forma una *plántula,* la cual posee uno o dos cotiledones, dependiendo de si es monocotiledónea o dicotiledónea. Además, se haya la plúmula en la punta superior, y la radícula en la punta inferior.
 
-    El embrión forma una *plántula,* la cual posee uno dos cotiledones, dependiendo de si es monocotiledónea o dicotiledónea. Además, se haya la plúmula en la punta superior, y la radícula en la punta inferior.
+            Entre los cotiledones y la plúmula, se encuentra una parte del eje embrionario llamado *epicotilo,* mientras que la parte del eje embrionario entre los cotiledones y la radícula se conoce como *hipocotilo.*
 
-    Entre los cotiledones y la plúmula, se encuentra una parte del eje embrionario llamado *epicotilo,* mientras que la parte del eje embrionario entre los cotiledones y la radícula se conoce como *hipocotilo.*
-
-    // Adjuntar imagen lateral
-
-    Si primero se desarrolla el epicotilo, los cotiledones quedan debajo de la tierra, y la *germinación es hipogea.* Por su parte, si primero se desarrolla el hipocotilo, los cotiledones salen de la tierra, y la *germianción es epigea.*
-
-    /* SEGUNDO BLOQUE DE CLASES */
+            Si primero se desarrolla el epicotilo, los cotiledones quedan debajo de la tierra, y la *germinación es hipogea.* Por su parte, si primero se desarrolla el hipocotilo, los cotiledones salen de la tierra, y la *germianción es epigea.*
+        ],
+        figure(
+            caption: "Estructuras del embrión",
+            image("../figures/fig_embrion.svg")
+        )
+    )
 
     = Origen, clasificación y características morfológicas de los frutos
 
@@ -435,17 +459,19 @@
 
     Solamente las plantas con flores podrán dar origen a frutos, los cuales pueden tener diversos orígenes, dependiendo de si se forman a partir de un ovario o varios ovarios, y si hay estructuras acompañantes que constituyen el fruto:
 
-    - El desarrollo del ovario produce *frutos simples.*
-    - Ovario + otras estructuras complejas (como el tálamo) producen *frutos complejos.*
-    - Ovarios de muchas flores que permanecen juntas producen *infrutescencias.*
+    - El desarrollo del ovario (en soledad) produce *frutos simples.*
+    - El desarrollo del oOvario acompañado de otras estructuras complejas (como el tálamo) producen *frutos complejos.*
+    - El desarrollo de los ovarios de muchas flores que permanecen juntas producen *infrutescencias.*
 
     #obsbox()[
-        Los frutos simples y complejos provienen de _una sola_ flor. Las infrutescencias no.
+        Tanto los frutos simples como los frutos complejos provienen de _una sola_ flor. Las infrutescencias no.
     ]
 
     #examplebox()[
         Ejemplo de una infrutescencia es la piña.
     ]
+
+    Además, dentro de estas clasificaciones, también habrán subcategorías presentes. Por ejemplo, para los frutos simples:
 
     #{
         set text(size: 1.3em)
@@ -457,37 +483,44 @@
 
     El pericarpio posee 3 capas: la capa externa se denomina *epicarpio* o exocarpio; la capa media o *mesocarpio* que es la parte carnosa de la fruta, y corresponde al mesófilo del carpelo; y la capa interna o *endocarpio* que no requiere de tanta modificación.
 
+    #figure(
+        caption: "Ilustración que representa las estructuras que se caen (punteadas) y en qué se transforman las estructuras persistentes. Imagen extraída de la guía 8 de laboratorio, cuyos autores son los profesores del curso de Botánica.",
+        image("../figures/fig_transformacion_ovario.png")
+    )
+
     == Clasificación
+
+    Los frutos pueden clasificarse a grandes rasgos como:
 
     #{
         set text(size: 1.3em)
 
-        $ "De una flor" cases("Simples" cases("Secos" cases("Dehiscente" cases("Silicua", "Folículo", "Legumbre", "Cápsula"), "Indehiscente" cases("Nuez", "Arquenio", "Cariopsis", "Sámara", "Lomento seco")), "Carnosos" cases("Drupa", "Baya", "Hesperidio")), "Complejos" cases("Pomo", "Pepónida", "Polidrupa", "Eterio", "Cinorrodón")) $
-
-        $ "De varias flores" cases("Sicono", "Sorosis") $
+        $ "De una flor"& cases("Simples" cases("Secos" cases("Dehiscente" cases("Silicua", "Folículo", "Legumbre", "Cápsula"), "Indehiscente" cases("Nuez", "Arquenio", "Cariopsis", "Sámara", "Lomento seco")), "Carnosos" cases("Drupa", "Baya", "Hesperidio")), "Complejos" cases("Pomo", "Pepónida", "Polidrupa", "Eterio", "Cinorrodón")) \ "De varias flores"& cases("Sicono", "Sorosis") $
     }
 
-    Los frutos pueden analizarse bajo las siguientes características:
-    + N° de carpelos
-    + N° de lóculos
-    + N° de aberturas (dehiscente)
-    + N° de semillas
+    Y, además, pueden analizarse bajo las siguientes características:
+    - N° de carpelos
+    - N° de lóculos
+    - N° de aberturas (dehiscente)
+    - N° de semillas
 
-    === Frutos simples
+    === Definiciones grupales principales
 
-    Son aquellos que provienen de un ovario, y pueden ser simples si las paredes (el pericarpio) es duro y seco, o carnosos si es engrosado.
+    Para no tener que definir cada uno de los grupos de clasificación antes de llegar a los extremos del diagrama anterior, se definirán los macro-grupos en los que se puede clasificar un fruto:
 
-    ==== Frutos secos
+    / F. simples: Son aquellos que provienen de un solo ovario, sin ninguna estructura acompañante (como el tálamo, por ejemplo).
+    / F. simples y secos: Cuando el fruto madura, este es duro y seco.
+    / F. simples y carnosos: Cuando el fruto madura, el pericarpio es carnoso y blando, pudiendo distinguirse sus tres capas: epicarpio, mesocarpio y endocarpio.
 
-    Si el fruto seco se abre al madurar, se clasifica como dehiscente.
+    == Frutos simples, secos y dehiscentes
 
-    Por su parte, si no se abre al madurar, entonces es un fruto seco indehiscente.
-
-    == Fruto simples, secos y dehiscentes
+    Los frutos dehiscentes se caracterizan por *abrirse al madurar.* Se subdividen en 4.
 
     === Folículo
 
-    El fruto dehiscente más sencillo o simple es el *folículo*, el cual *se abre solo por una abertura,* tiene muchas semillas y proviene de un ovario monocarpelar y súpero.
+    - Se abre solo por una sutura.
+    - Tiene muchas semillas.
+    - Proviene de un ovario monocarpelar y súpero.
 
     #obsbox()[
         Es requisito que el ovario sea súpero, pues si fuera ínfimo estaría junto al tálamo, causando que, al madurar, el fruto sería complejo, pues parte del fruto no sería netamente del ovario.
@@ -495,9 +528,23 @@
         Existen excepciones, pero son mínimas.
     ]
 
-    Otro ejemplo de fruto dehiscente son las *legumbres,* las cuales se pueden abrir por la sutura ventral y la sutura dorsal (*dos aberturas)*. Al igual que el folículo, proviene de un ovario monocarpelar y súpero y contiene varias semillas.
+    === Legumbre
 
-    Luego, si el fruto se abre por dos suturas, tiene muchas semillas y proviene de un ovario bicarpelar separado por un tabique (replo) y súpero, entonces corresponde a una *silícua.*
+    - Se abre por la sutura ventral y por el nervio dorsal (dos aberturas).
+    - Tiene muchas semillas.
+    - Proviene de un ovario monocarpelar y súpero.
+
+    === Silícua
+
+    - Se abre por dos suturas.
+    - Tiene muchas semillas.
+    - Proviene de un ovario bicarpelar separado por un tabique (*replo*) y súpero.
+
+    === Cápsula
+
+    - Se abre por varios lados.
+    - Tiene muchas semillas.
+    - Proviene  de un ovario multicarpelar, sincárpico y súpero.
 
     #figure-box()[
         $ "Legumbre & Lomento" arrow& "Leguminosas "(italic("Fabaceae"))\
@@ -507,70 +554,77 @@
         "Drupa" arrow& "Frutos de carozo "(italic("Rosaceae (Prunoideae)"))  $
     ]
 
-    Finalmente, si el fruto se abre por varios lados, tiene muchas semillas y proviene de un ovario multicarpelar, sincárpico y súpero, entonces corresponde a una *cápsula.*
-
     == Fruto simples, secos e indehiscentes
+
+    Los frutos indehiscentes se caracterizan por *no abrirse al madurar.* Se subdividen en 5.
 
     === Aquenio
 
-    Las características del fruto son:
-    + Tiene una semilla
-    + Proviene de un ovario monocarpelar súpero y, a veces, puede presentarse como ínfero.
+    - Tiene una semilla no adherida al pericarpio.
+    - Proviene de un ovario monocarpelar súpero (y, a veces, puede presentarse como ínfero).
 
-    === Cipselas
+    === Cipsela
 
-    + Tiene una semilla no adherida al pericarpio
-    + Proviene de un ovario bicarpelar ínfero
-    + Posee una estructura denominada *papus*
+    - Tiene una semilla no adherida al pericarpio.
+    - Proviene de un ovario bicarpelar ínfero.
+    - Posee una estructura denominada *pappus*
 
-    // Imagen
+    #obsbox()[
+        El papus es una modificación del cáliz que suele estar compuesto por pelos simples o plumosos, cerdas o escamas, y su función principal es permitir o asistir a la planta en la diseminación o dispersión aérea de los frutos y, por ende, de las semillas.
+    ]
 
     === Sámara
 
-    + Tiene una semilla
-    + Proviene de un ovario monocarpelar y súpero
-    + Posee una prolongación en forma de ala (permite la dispersión por viento o *anemocaria*)
+    - Tiene una semilla (monospermo).
+    - Proviene de un ovario monocarpelar y súpero.
+    - Posee una prolongación en forma de ala (permite la dispersión por viento o *anemocoria*)
 
-    A veces dos sámaras quedan unidas por el tálamo, causando que se vean "dos alas" juntas. Esta estructura se denomina *bisámara*
+    A veces dos sámaras quedan unidas por el tálamo, causando que se vean "dos alas" juntas. Esta estructura se denomina *bisámara.*
 
     === Cariopsis
 
-    // Rellenar del PPT
+    - Tiene una semilla.
+    - Proviene de un ovario monocarpelar y súpero.
+    - Posee la testa de la semilla adnada al pericarpio.
 
     === Nuez
 
-    + Tiene una semilla (monospermo)
-    + Proviene de un ovario multicarpelar y súpero /* (algunas veces puede ser ínfero) */
-    + Tiene solo un carpelo desarrollado (los demás abortan)
-    + Posee un pericarpio muy duro
+    - Tiene una semilla.
+    - Proviene de un ovario multicarpelar y súpero (algunas veces puede ser ínfero).
+    - Tiene solo un carpelo desarrollado (los demás abortan).
+    - Posee un pericarpio muy duro.
+
+    #obsbox()[
+        En el *Nogal*, el fruto (nuez) posee un endocarpio leñoso, pero la cobertura externa que proviene del cáliz y del pericarpio es carnosa, constituyendo lo que se conoce como *pseudodrupa*
+    ]
 
     === Lomento
 
-    + Tiene muchas semillas (polispermo)
-    + Proviene de un ovario monocarpelar y súpero
+    - Tiene muchas semillas (polispermo).
+    - Proviene de un ovario monocarpelar y súpero
 
     == Frutos simples y carnosos
 
     === Bayas
 
-    + Tiene una o varias semillas
-    + Proviene de un ovario generalmente con varios carpelos unidos y súpero
-    + Presenta un epicarpio delgado, un mesocarpio grueso, y un endocarpio membranoso
+    - Tiene una o varias semillas.
+    - Proviene de un ovario generalmente con varios carpelos unidos y súpero.
+    - Presenta un epicarpio delgado, un mesocarpio grueso, y un endocarpio membranoso.
 
     === Hesperidio
 
-    + Tiene varias semillas
-    + Proviene de un ovario sincárpico, multicarpelar y súpero
-    + Presenta un epicarpio glandular, un mesocarpio esponjoso,  y un endocarpio tapizado de células jugosas
-    + Agrupa a los cítricos
+    - Tiene varias semillas.
+    - Proviene de un ovario sincárpico, multicarpelar y súpero.
+    - Presenta un epicarpio glandular, un mesocarpio esponjoso,  y un endocarpio tapizado de células jugosas.
+    - Característico de los cítricos.
 
-    En cada lóculo hay un gajo de la fruta (jn gajo de naranja, limón etc.)
+    En cada lóculo hay "un gajo de la fruta" (un gajo de naranja, limón etc.).
 
     === Drupa
 
-    + Tiene una semilla
-    + Proviene de un ovario monocarpelar y súpero
-    + Presenta un epicarpio delgado, un mesocarpio grueso y un endocarpio duro y leñoso
+    - Tiene una semilla.
+    - Proviene de un ovario monocarpelar y súpero.
+    - Presenta un epicarpio delgado, un mesocarpio grueso y un endocarpio duro y leñoso.
 ]
 
 #let clase-20-21 = [

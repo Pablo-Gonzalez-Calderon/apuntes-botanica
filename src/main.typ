@@ -26,5 +26,5 @@
 
 // Noviembre
 #clase-17-18
-// #clase-19-20
+#clase-19-20
 // #clase-20-21
