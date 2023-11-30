@@ -640,24 +640,23 @@
 
     #obsbox()[
         Las flores apocárpicas *siempre* van a formar frutos complejos. Las sincárpicas no necesariamente; solo lo harán cuando se encuentren en una flor epigina.
-    ]
 
-    #align(
-        center,
-        grid(
-            columns: (1fr, 1fr),
-            [
-                $ "Apocárpicas" \ arrow.b $
+        #align(
+            center,
+            grid(
+                columns: (1fr, 1fr),
+                [
+                    $ "Apocárpicas" \ arrow.b $
 
-                $ 1.& "Politrupa"\ 2.& "Eterio" \ 3.& "Cinorrodón" $
-            ],
-            [
-                $ "Sincárpicas" \ arrow.b $
-                $ 1.& "Pomo" \ 2.& "Pepónido" \ 3.& ""cancel("Cipsela") $
-            ]
+                    $ 1.& "Polidrupa"\ 2.& "Eterio" \ 3.& "Cinorrodón" $
+                ],
+                [
+                    $ "Sincárpicas" \ arrow.b $
+                    $ 1.& "Pomo" \ 2.& "Pepónido" \ 3.& cancel("Cipsela") $
+                ]
+            )
         )
-    )
-    #obsbox()[
+    ][
         La polidrupa y el eterio provienen de flores hipóginas, mientras que el cinorrodón proviene de flores epiginas.
     ]
 
@@ -665,48 +664,73 @@
         $ "Pomos" arrow "Pomáceas" arrow "Maloideae" arrow "Rosaceae" \ "Pepónidos" arrow "Curcubitaceae" $
     ]
 
-    === Pepónidos
+    === Pomo
 
-    Si el fruto posee varias semillas, proviene de un ovario ínfero, con varios carpelos y presenta un mesocarpio desarrollado y un epicarpio y tálamo fusionados.
+    + Tiene muchas semillas.
+    + Proviene de un ovario ínfero multicarpelar.
+    + Presenta pericarpio coriáceo y un *tálamo muy desarrollado.*
 
-    === Pomos
+    === Pepónido
+
+    + Tiene varias semillas.
+    + Proviene de un ovario ínfero, con varios carpelos.
+    + Presenta un mesocarpio desarrollado y un epicarpio y tálamo fusionados.
 
     === Polidrupa
 
-    El fruto proviene de una flor de gineceo apocárpico, con varios carpelos dispuestos en un tálamo y cada uno de ellos formando una pequeña drupa.
+    + Proviene de una flor de gineceo apocárpico, multicarpelar y con ovario súpero.
+    + Los carpelos están dispuestos en un tálamo, cada uno de ellos formando una pequeña drupa.
 
     #figure-box(
         columns(
             3,
             [
-                $ "Fruto falso" \ "Fruto complejo" \ arrow.b \ "Polidrupa" \ arrow.b \ "Frutos verdaderos" \ arrow.b \ "Drupas" $
+                $ "(Fruto falso)" \ "Polidrupa" \ arrow.b \ "(Frutos verdaderos)" \ "Drupas" $
 
                 #colbreak()
 
-                $ "Eterio" \ arrow.b \ "Frutos verdaderos" \ arrow.b \ limits("Aquenios")_"(superficie del tálamo)" $
+                $ "(Fruto falso)" \ "Eterio" \ arrow.b \ "(Frutos verdaderos)" \ limits("Aquenios")_"(superficie del tálamo)" $
 
                 #colbreak()
 
-                $ "Cinorrodón" \ arrow.b \ "Frutos verdaderos" \ arrow.b \ limits("Aquenios")_"(interior del tálamo)" $
+                $ "(Fruto falso)" \ "Cinorrodón" \ arrow.b \ "(Frutos verdaderos)" \ limits("Aquenios")_"(interior del tálamo)" $
             ]
         )
     )
 
     === Eterio
 
+    + Proviene de una flor de gineceo apocárpico, con varios carpelos y ovario súpero.
+    + Los carpelos están dispuestos en un tálamo desarrollado y *carnoso,* cada uno de ellos formando un pequeño aquenio.
+
     === Cinorrodón
 
-    El fruto proviene de una flor del gineceo apocárpico con varios carpelos dispuestos al interior de un tálamo, cada ovario formando un aquenio y con el tálamo engrosado en la madurez.
+    + Proviene de una flor del gineceo apocárpico, con varios carpelos y ovario ínfero.
+    + Los carpelos están dispuestos al _interior_ de un tálamo, engrosado en la madurez.
+    + Cada ovario forma un aquenio.
 
-    #line(length: 100%)
+    == Infrutescencias
 
-    La diferencia principal entre la polidrupa, el eterio y el cinorrodón es el tipo de inflorescencia de la cual provienen. Encontramos el *sicono* y la *sorosis*
+    Si bien hasta ahora hemos visto frutos que provienen de una sola flor. También existen frutos que se originan a partir de muchas flores, siendo estos el *sicono* y la *sorosis.*
 
-    En el sicono, con forma de cápsula hueca, en la parte inferior se hallarán las flores femeninas, y en la parte superior las partes masculinas. Las flores femeninas darán origen a los frutos verdaderos (i.e. los aquenios).
+    === Sicono
 
-    Por su parte, en la sorosis las flores ---trímeras--- no van en el interior, sino que van en la parte interna, y son tricarpelares. Cada flor va a originar un fruto verdadero: una baya. A medida que crecen los frutos, quedarán unidos los unos con los otros, formando frutas como la piña.
+    + Formado por *múltiples frutos pequeños.*
+    + Los frutos están dispuestos en un receptáculo ahuecado y piriforme.
+    + Los frutos verdaderos son aquenios.
 
-    #line(length: 100%)
+    La morfología del sicono, con forma de cápsula hueca, se debe a que, en su parte inferior, se hallaban las flores femeninas, y en la parte superior las partes masculinas. Ocurriendo una fecundación interna, donde solo las flores femeninas darán origen a los frutos verdaderos (i.e. los aquenios).
+
+    === Sorosis
+
+    + Formado por varios *frutos concrescentes.*
+    + Los frutos están dispuestos sobre un eje central.
+    + Posee flores trímeras (y, por consecuencia, tricarpelares).
+    + Los frutos verdaderos son bayas.
+
+    A diferencia del sicono, en la sorosis las flores no van en el interior, sino que van en la parte externa. Cada flor va a originar un fruto verdadero: una baya. A medida que crecen los frutos, quedarán unidos los unos con los otros, formando frutas como la piña.
+
+    == Relación maduración fruto-semilla
 
     Junto con la maduración del fruto, en el interior del ovario, ocurrirán numerosas transformaciones en los primordios seminales para poder dar origen a lo que denominamos como semilla.
 
@@ -718,9 +742,7 @@
 
     De esta forma, el conjunto embrión, endosperma y testa forma la *semilla,* donde cada parte de ella posee un origen distinto.
 
-    Finalmente, es compun observar que "no hay" endosperma cuando la semilla germina. Esto ocurre debido a que este fue absorbido por el embrión (semillas *exalbuminosas*). Igualmente, pueden darse casos donde no es absorbido todo el endosperma (semillas *albuminosas*).
-
-    /* BLOQUE 2 */
+    Finalmente, es común observar que "no hay" endosperma cuando la semilla germina. Esto ocurre debido a que este fue absorbido por el embrión (semillas *exalbuminosas*). Igualmente, pueden darse casos donde no es absorbido todo el endosperma (semillas *albuminosas*).
 
     = Taxonomía y Evolución de Angiospermas
 
