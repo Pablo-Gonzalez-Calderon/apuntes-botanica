@@ -390,7 +390,7 @@
         Esporofito #sym.arrow Esporas #sym.arrow Gametofitos #sym.arrow Gametos #sym.arrow.dotted Polinización #sym.arrow.dotted #text(red)[Fecundación #sym.arrow Esporofito]
     ])
 
-    Una vez que llega el grano de polen al estigma comienza la *germinación,* la cual corresponde a la *alargación y desarrollo del tubo polínico* para depositar el espermio en el óvulo, lo cual se conoce como *sifonogamia.* Recordemos que para fecundar al óvulo, el tubo polínico deberá pasar entre los tegumentos hasta el óvulo, el cual se haya entre las sinergidas.
+    Una vez que llega el grano de polen al estigma comienza la *germinación,* la cual corresponde a la *alargación y desarrollo del tubo polínico* para depositar el espermio en el óvulo, lo cual se conoce como *sifonogamia.* Recordemos que para fecundar al óvulo, el tubo polínico deberá pasar entre los tegumentos hasta el óvulo, el cual se halla entre las sinergidas.
 
     Puede darse el caso de que algunos primordios seminales no sean fecundados, causando que hayan *primordios seminales abortados.* Para que se fecunden todos los primordios, en el peor de los casos es necesario un grano de polen por cada primordio seminal.
 
@@ -441,7 +441,7 @@
         [
             = Morfología interna de la semilla: El Embrión
 
-            El embrión forma una *plántula,* la cual posee uno o dos cotiledones, dependiendo de si es monocotiledónea o dicotiledónea. Además, se haya la plúmula en la punta superior, y la radícula en la punta inferior.
+            El embrión forma una *plántula,* la cual posee uno o dos cotiledones, dependiendo de si es monocotiledónea o dicotiledónea. Además, se halla la plúmula en la punta superior, y la radícula en la punta inferior.
 
             Entre los cotiledones y la plúmula, se encuentra una parte del eje embrionario llamado *epicotilo,* mientras que la parte del eje embrionario entre los cotiledones y la radícula se conoce como *hipocotilo.*
 
@@ -627,8 +627,10 @@
     - Presenta un epicarpio delgado, un mesocarpio grueso y un endocarpio duro y leñoso.
 ]
 
-#let clase-20-21 = [
-    #new-class(new-page: true, "Reproducción en plantas IV", "20 de noviembre de 2023")
+#let clase-21-22 = [
+    #new-class(new-page: true, "Reproducción en plantas IV y Taxonomía I", "20 de noviembre de 2023")
+
+    = Origen, clasificación y características morfológicas de los frutos (continuación)
 
     == Frutos complejos
 
@@ -741,45 +743,67 @@
 
     == Categorías taxonómicas
 
-    Son conjuntos de entidades emparentadas entre sí. Centrífugamente, de menor a mayor grado de agrupación de individuos, se halla, la *especie*, el *género*, la *familia*, el *orden* y la *clase.*
-
-    // rellenar de PPT
+    Son conjuntos de entidades emparentadas entre sí. Centrífugamente, de menor a mayor grado de agrupación de individuos, se halla, la *especie*, el *género*, la *familia*, el *orden* y la *clase,* por ejemplo.
 
     Las categorías taxonómicas pueden dividirse en *supraespecíficas* e *infraespecíficas*. Las primeras son *uninominales,* mientras que las segundas son *trinominales* y solamente incluye a las subespecies.
 
-    Por su parte, las categorías supraespecíficas son:
+    Las categorías supraespecíficas e infraespecíficas son son:
     + Reino
-    + División _-phyta_
-    + Clase _-opsida_
-    + Subclase _-idae_
-    + Clado _terminación libre_
-    + Orden _-ales_
-    + Familia _-aceae_
-    + Subfamilia _-ideae_
-    + Tribu _-eae_
+    + División (_-phyta_)
+    + Clase( _-opsida_)
+    + Subclase (_-idae_)
+    + Clado (_terminación libre_)
+    + Orden (_-ales_)
+    + Familia _(-aceae_)
+    + Subfamilia _(-ideae_)
+    + Tribu( _-eae_)
     + Género
     + Sección
+    + #text(red, "Especie") (binomial)
+    + Subespecie (tronomial)
 
-    == División Angiospermas
+    == Reino _Plantae_
 
-    El Reino Plantae se encuentra separado en 9 grandes grupos o divisiones. Nos enfocaremos en una de estas divisiones: la División Anthophyta. Estas son plantas con flores, frutos, semillas (espermatófitas), haces vasculares (traqueófitas), generan embrión (embriófitas), tienen tubo polínico (sifonógamas).
+    Se encuentra separado en 9 grandes grupos o divisiones: _Bryophyta, Lycophyta, Arthrophyta, Pteridophyta, Cycadophyta, Ginkgophyta, Coniferophyta, Gnetophyta_ y  _Anthophyta_
+
+    == División _Anthophyta_ (o _Magnoliophyta_)
+
+    Nos enfocaremos en una de las divisiones del reino _Plantae_: la División _Anthophyta_. Estas son plantas con flores, frutos, semillas (espermatófitas), haces vasculares (traqueófitas), generan embrión (embriófitas) y tienen tubo polínico (sifonógamas).
 
     #obsbox()[
         Estos caracteres no son todos únicos de las angiospermas.Los que sí son únicos son la presencia de flores, frutos y la doble fecundación.
     ]
 
-    Dentro de la división, existen *3 clases*:
+    Dentro de la división, existen 2 clases:
     + _Liliopsida_: Monocotiledóneas (trímeras)
     + _Magnoliopsida_: Dicotiledóneas (pentámeras y tetrámeras)
-    + ...
 
     En este sentido, surge el término *sinapomorfía,* que alude a los caracteres derivados o más nuevos que han aparecido en los individuos más recientes. Con la aparición de más sinapomorfías, pueden aparecer nuevos clados.
+
+    Algunas de las principales diferencias evolutivas en los caracteres de las _Anthophytas_ se encuentran en la siguiente tabla:
+
+    #table(
+        align: center+horizon,
+        columns: (1.5fr, 1fr, 1fr),
+        [Criterio], [*Carácter más primitivo*], [*Carácter más evolucionado*],
+        [Corola], [Muchos pétalos], [Pentámera o tetrámera],
+        [Disposición de los elementos florales], [Helicoidal], [Verticilada],
+        [Perianto], [No diferenciado], [Diferenciado en cáliz y corola],
+        [Flores], [Actinomorfas, hermafroditas e hipóginas], [Zigomorfas, unisexuales y epiginas],
+        [Elementos florales], [Separados], [Unidos],
+        [Estambres], [Sin filamento y anteras anchas], [Diferenciados en filamento y anteras],
+        [Polen], [Uniaperturado], [Poliaperturado],
+        [Exina], [Lisa], [Esculpida],
+        [Carpelos], [Libres], [Soldados],
+        [Fruto], [Dehiscente], [Indehiscente],
+        [Germinación], [Epigea], [Hipogea],
+    )
 
     == Sistema de clasificación APG (1988)
 
     Un grupo de taxónomos realizó un análisis filogenético basado en las relaciones de parentesco entre las especies.
 
-    Se utiliza la cladística para establecer las relaciones evolutivas basándose en las propiedades derivadas compartidas.
+    Se utiliza la cladística para establecer las relaciones evolutivas basándose en las propiedades derivadas compartidas (*sinapomorfias*).
 
     Se basa en el análisis cladístico de secuencias de ADN de tres genes: dos cloroplásticos y uno ribosómico sin desechar evidencias morfológicas.
 
@@ -787,56 +811,266 @@
 
     #box()[
         + Monocotiledóneas (pérdida de un cotiledón)
+        + Eudicotiledóneas #sym.arrow 97% de las antiguas Dicotiledóneas
         + Angiospermas basales
         + Magnolidas
-        + Eudicotiledóneas
-        #{
-            v(-3em)
-            h(5cm)
-            [Antiguas dicotiledóneas]
-        }
     ]
 
     #align(center, tablex(
         align:center+horizon,
         columns: 5,
-        [Clase], [Monocotiledóneas], [Ang. basales], [Magnolidas], [Eudicotiledóneas],
-        rowspanx(2)[Aperturas en el polen], [1 apertura], [1 apertura], [1 apertura], [3 aperturas], colspanx(3)[Monosurcado], [Trcolpadas]
+        [*Clase*], [Monocotiledóneas], [Ang. basales], [Magnolidas], [Eudicotiledóneas],
+        rowspanx(2)[*Aperturas en el polen*], [1 apertura], [1 apertura], [1 apertura], [3 aperturas], colspanx(3)[Monosurcado], [Tricolpadas]
     ))
 
     #obsbox()[
-        Los colpos son horizontales y los surcos son horizontales
+        Es importante saber que los colpos son horizontales y los surcos son horizontales
     ]
 
-    Con la nueva clasificación, el 97% de las antiguas dicotiledóneas son ahora eudicotiledóneas. Por su parte, el 3% restante se divide entre Angiospermas basales y Magnolidas.
+    Con la nueva clasificación, el 97% de las antiguas Dicotiledóneas son ahora Eudicotiledóneas. Por su parte, el 3% restante se divide entre Angiospermas basales y Magnolidas.
 
-    = Angiospermas basales
+    = Clados de la división Anthophyta
 
-    Presentan rasgos de ambos grupos, Monocotiledóneas y Eudicotiledóneas; polen monoaperturado, flores trímeras. Comprende los órdenes
-    - _Ambobrellales_
-    - _Nynpheales_
-    - _Austrobaileyales_
+    == Monocotiledóneas
 
-    = Magnolidas
+    Poseen las siguientes características:
+    + Polen monoaperturado
+    + Embrión con un cotiledón
+    + Flores trímeras
+    + Sin leño (crecimiento secundario)
+    + Hojas con nervadura paralela
+    + Raíces homorrizas
 
-    Polen monoaperturado, nervadura reticulada, carpelos libres, estambres sin diferenciar, plantas leñosas y herbáceas. Es decir, presentará varios caracteres primitivos.
+    == Angiospermas basales (o primitivas)
 
-    Dentro de este clado, estudiaremos el orden _Magnoliales_ y la familia _Magnoliaceae._
+    Presentan rasgos de ambos grupos, Monocotiledóneas y Eudicotiledóneas:
+    + Polen monoaperturado
+    + Flores trímeras.
+    + Comprende los órdenes
+        - _Ambobrellales_
+        - _Nynpheales_
+        - _Austrobaileyales_
 
-    == Familia _Magnoliaceae_
+    == Magnólidas
+
+    Presentan varios caracteres primitivos, y otros no tanto:
+
+    + Polen monoaperturado (monocolpado)
+    + Nervadura reticulada
+    + Carpelos libres
+    + Predominio de gineceos apocárpicos con numerosos carpelos
+    + Disposición helicoidal de las piezas florales en un número variable
+    + Perianto petaloide grande o reducido
+    + Numerosos estambres
+    + Estambres sin diferenciar
+    + Plantas leñosas (principalmente) y herbáceas
+    + Flores hermafroditas o unisexuales, actinomorfas y dialipétalas
+
+    #obsbox()[
+        Dentro de este clado, estudiaremos el orden _Magnoliales_ y la familia _Magnoliaceae._
+    ]
+
+    === Familia _Magnoliaceae_
 
     Formada por 12 géneros y cerca de 220 especies. Su distribución está centrada en regios templadas y tropicales de la tierra.
 
     Son especies con valor ornamental, y su fórmula floral es:
-    $ * P oo A oo G underline(oo) $
+    #figure-box(align:center, width: 50%)[
+        $ * P oo A oo G underline(oo) $
+    ]
 
-    = Monocotiledóneas
+    == Eudicotiledóneas
 
-    Poseen polen monoaperturado, embrión con un cotiledón, flores trímeras, sin leño (crecimiento secundario), nervadura paralela /*REVISSAR*/, raíces homorrizas.
+    Son las más evolucionadas:
+    + Polen triaperturado
+    + Embrión con dos cotiledones
+    + Flores tetrámeras o pentámeras
+    + Hojas con nervación reticulada.
+]
 
-    = Eudicotiledóneas
 
-    Polen triaperturado, embrión con dos cotiledones, flores tetrámeras o pentámeras, hojas con nervación reticulada.
+#let clase-23-24 = [
+    #new-class(new-page: true, "Taxonomía II", "27 de noviembre de 2023")
+
+    Recordemos rápidamente la siguiente clasificación de las Angiospermas:
+
+    #table(
+        columns: 2,
+        [*Clados*], [*Orden - Familia*],
+        [
+            + Angiospermas basales (no veremos ninguna familia)
+            + Mangólidas --- Magnoliales --- Magnoliaceae
+            + Monocotiledóneas --- Fabales
+            + Eudicotiledóneas --- Brassicales
+        ], [
+            Brassicales --- _Brassicaceae_
+
+            Rosales --- _Rosaceae_
+
+            Fabales --- _Fabaceae_
+
+            Apiales --- _Apiaceae_
+        ]
+    )
+
+    Ahora veremos, en el clado Eudicotiledónea, las familias _Brassicaceae_, _Rosaceae_, _Fabaceae_ y _Apiaceae_.
+
+    = Brassicales
+
+    #figure-box(width: 40%, align: center)[
+        $ * K 4 C 4 A 2+4 G(underline(2)) $
+    ]
+
+    Se encuentran en todos los continentes, formada por 380 géneros y cerca de 3000 especies. Prefieren climas templados y son ampliamente usadas para la alimentación. Sus principales características son:
+
+    + Tetrámeras, con flores generalmente en forma de cruz.
+    + Poseen *replo,* un tabique ubicado dentro del ovario que permite separar el ovario en dos lóculos, el cual perdura con la maduración.
+    + Tienen reducción de 2 estambres en un verticilo externo, y 4 estambres en un verticilo interno. Así, *el androceo consta de dos verticilos florales.*
+
+    = Rosales
+
+    Formada por 122 géneros y cerca de 3370 especies, tienen importancia agronómica con especies frutales y ornamentales. Son plantas herbáceas arbustivas y arbóreas.
+
+    Lo que varía entre las subfamilias es principalmente la parte femenina (i.e. el gineceo). Por ello, las subfamilias generarán distintos frutos. El resto de las estructuras permanece relativamente constante.
+
+    #set page(flipped: true)
+    #tablex(
+        columns: (100pt, 1fr, 1fr, 1fr, 1fr),
+        [], colspanx(4)[*Familia Rosaceae* \ $ upright(* K 5 space C 5 space A - space G -) $],
+        [], [_Spiraceoideae_], [_Rosoideae_], [_Maloideae_], [_Prunoideae_], [Fórmula floral],
+        [ $ upright(* K 5 space  C 5 space  A 10 space  G underline(5)) $ ], [ $ upright(* K 5 space  C 5 space  A 10 \- oo space  G overline(underline(10 \- oo))) $ ], [ $ upright(* K 5 space  C 5 space  A 10 \- oo space  G (overline(5))) $ ], [ $ upright(* K 5 space  C 5 space  A 10 \- oo space  G (underline(1))) $ ],
+        [Fruto], [Compuesto: Cada carpelo forma un folículo (polifolículo)#footnote("El fruto verdadero es el folículo, pues el que viene del ovario. El polifolículo es un fruto falso.")], [Si la flor es hipogina puede ser un eterio o una polidrupa. Si es epigina, es un cinorrodón.], [Compuesto: Se forma un pomo, el cual está formado en conjunto con el tálamo.], [Forma una drupa, con endocarpio leñoso (carozo)]
+    )
+
+    #set page(flipped: false)
+    = Fabaceas (ex-Leguminosas)
+
+    Formada por 700 género y cerca de 17000 especies, con presencia en todo el mundo. Tiene importancia agronómica en la alimentación humana.
+
+    Al igual que los Rosales, se divide en subfamilias. Sin embargo, mientras que en los Rosales el gineceo era el que variaba, en las Fabaceas el gineceo es lo único constante (los frutos son muy similares).
+
+    #tablex(
+        columns: (80pt, 1fr, 1fr, 1fr),
+        [], colspanx(3)[*Fabaceas* $ upright(K - space C - space A - space G (underline(1))) $ Los frutos son o legumbres o lomentos],
+        [], [_Mimosoideae_], [_Papilionoideae_], [_Caesalpinoideae_],
+        [Fórmula floral],
+        [$ upright(* K (5) space C 5 space A 10 \- oo space G (underline(1))) $],
+        [$ upright(% K (5) space C 5 space A (9)+1 space G (underline(1))) $],
+        [$ upright(% K (5) space C 5 space A 10 space G (underline(1))) $]
+    )
+
+    // Las Mimosoideae  tenían algo con el polen, porque se dispersaba en conjunto
+
+    En la subfamilia _Papilionoideae_ se hallan las legumbres que comemos cotidianamente. Se caracterizan por:
+
+    + Tener pétalos desiguales: Un estandarte, unas alas y una quilla.
+    + Son diadelfos, porque posee 9 estambres unidos por el filamento y 1 estambre libre o separado.
+    + Consumimos sus semillas, no sus frutos.
+    + Ejemplos son las lentejas, los garbanzos, las arvejas, los porotos, etc.
+
+    // Revisar cual es el ala y cual es la quilla
+
+    = Apiaceas
+
+    #figure-box(width: 40%, align: center)[
+        $ upright(* K 5 space C 5 space A 5 space G (overline(2))) $
+    ]
+
+    Se caracterizan porque:
+    + Sus flores se encuentran en una *umbela,* la cual puede ser simple o compuesta.
+    + Su fruto se denomina como *esquizocarpo,* el cual contiene a dos frutos verdaderos: 2 mericarpos.
+    + Decimos que el mericapro es un aquenio, pues está formado a partir de un solo carpelo, es indehiscente y ...
+    + Como el esquizocarpo está formado por dos aquenio, lo denominamos como *diaquenio.*
+
+    // Imagen
+
+    #obsbox()[
+        Todos los esquizocarpos son bicarpelares en la familia Apiacea
+    ]
 
 
+    // Segundo bloque de clases
+
+    Seguiremos con los órdenes de las eudicotiledóneas y las monocotiledóneas
+
+    Los órdenes y familias
+    - Orden Lamiales --- _Lamiaceae_
+    - Orden Solanales --- _Solanaceae_
+    - Orden Asterales --- _Asteraceae_
+
+    están muy emparentados entre sí y forman la Subclase _Asteridae,_ y el clado Asteridias.
+
+    Por su parte, en las Monocotiledóneas, verenmos el Orden Poales --- _Poaceae_ (Gramíneas).
+
+    = Lamiaceae (ex-Labiatae)
+
+    #figure-box(width: 40%, align: center)[
+        $ upright(% K (5) space [C(5) space A 4] space G (underline(2))) $
+    ]
+
+    Su nombre antiguo se debía a que las caracterizaba el ser flores bilabiadas. Sus características son:
+    + Poseen flores bilabiadas: la corola es tubular, con una parte superior de 2 pétalos e inferior de 3 pétalos.
+    + Tiene 4 estambres (pierdo un estambre evolutivamente).
+    + Cada flor forma 4 frutos, similares a pequeñas nueces, y se llaman *núculas.* Pese a que tiene 2 carpelos que están unidos formando el pistilo, dentro del ovario hay 2 tabiques, en lugar de 1, cauando que hayan 4 lóculos, con 1 primordio seminal cada uno. Además, cada uno de estos lóculos dará origen a un fruto simple, seco e indheiscente (núculas).
+    + El cáliz es persistente (se cae la corola, pero permanece el cáliz) y posee 5 sépalos. En su fondo, se hallan los 4 frutos mencionados previamente.
+    + Tiene tallos cuadrangulares, pues se forma colénquima en 4 sectores que dan la forma cuadrada al tallo.
+    + La mayoría de ellas son aromáticas
+    + Las hojas son opuestas
+
+    #obsbox()[
+        Las lamiaceas poseen sus flores como espigas de *verticilastros* (tres flores sobre una bráctea), como racimo o como panícula (racimo de racimos).
+    ]
+
+    = Solanaceas
+
+    #figure-box(width: 40%, align: center)[
+        $ upright(* K (5) space [C(5) space A 5] space G (underline(2))) $
+    ]
+
+    Su fórmula florar es muy similar a las de las lamiacias. Sus características son:
+    + Frutos carnosos (*bayas*) o secos (*cápsulas*)
+    + Mientras que las Lamiacias eran usadas como condimentos, estas son directamente alimentos.
+
+    = Asteraceas
+
+    #figure-box(width: 45%, align: center, body-style:(align: center))[
+        Flor ligulada o tubular hermafrodita:
+        $ upright(*% K 0\- oo space [C(5) space A (5)] space G (overline(2))) $
+
+        Flor liguada femenina:
+        $ upright(% K 0\- oo space C(5) space A 0 space G (overline(2))) $
+    ]
+
+    + Las flores se disponen en *capítulos*
+    + Ovario ínfero
+    + Cáliz modificado en una estructura denominada *vilano* o *pappus,* la cual ayuda a la dispersión del fruto.
+    + El fruto es una *cipsela.*
+    + Los estambres son sinantéreos (se unen por las anteras).
+    + Las flores maduran desde afuera del receptáculo o tálamo, hacia adentro.
+    + El capítulo está protegido por un conjunto de brácteas llamadas *involucro,* el cual *no es un sépalo,* pues está protegiendo a todas las flores, no a una flor en particular.
+    + Las flores serán *actinomorfas* si se trata de una flor *tubular*, o *zigomorfas* si son *liguladas.*
+    + Las flores son hermafroditas, pero *a veces las flores liguladas son femeninas unisexuales.* Además, _pueden_ ser esteriles, causando que su función pase a ser simplemente atraer polinizadores.
+
+    #tablex(
+        columns: (1fr, 1fr, 1fr),
+        [], colspanx(2)[*Familia Asteraceae*],
+        [], [_Cichoroideae_], [_Asteroideae_],
+        [Fórmula floral], [$ upright(% K 5 space [C(5) space A (5)] space G (overline(2))) $], [Flores tubulares $ upright(* K 5 space [C(5) space A (5)] space G (overline(2))) $ Flores liguladas],
+        [Capítulos], [Ligulados], [Solo tubulares (discoideos) o tubulares y liguladas (radiados)],
+        [Flores], [Necesariamente hermafroditas]
+    )
+
+    // Ahora pasaremos al clado Monocotiledónea, Orden Poales, familia Poaceae
+
+    = Poaceas
+
+    - Son plantas herbáceas o plantas perennes.
+    - Anemófilas, por lo que no requieren llamar la atención
+    - Nervadura paralela en sus hojas
+    - Flores trímeras
+    - Granos de polen monocolpado
+    - Las flores se denominan *antecios,* las cuales tienen un gineceo con 1 ovario y 3 estigmas, un androceo con 3 estambres (a veces 6), una corola con 2 *lodículas* (pétalos), y un cáliz con 1 *pálea* (sépalo).
+    - Protegiendo al antecio, se halla la *lema*, la cual posee una *arista*.
+    - Al conjunto de antecios se le llama *espiguilla,* la cual está protegida por brácteas llamadas *glumas.*
+    - El fruto es una cariopsis.
 ]
